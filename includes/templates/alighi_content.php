@@ -58,7 +58,7 @@
                          <input name="phone" tabindex="8" type="tel">
                     </div>
                     <div class="checkbox">
-                         <input name="individual" type="checkbox">
+                         <input name="individual" tabindex="9" type="checkbox">
                          <label><?=LSTR['pages']['alighi']['form']['individual']?></label>
                     </div>
                </div>
@@ -91,7 +91,7 @@
                     <div></div>
                     <div></div>
                     <div>
-                         <input type="submit" tabindex="9" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
+                         <input type="submit" tabindex="10" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
                     </div>
                </div>
           </form>
