@@ -48,8 +48,8 @@
                 <div>
                     <ul>
                         <?php
-                            foreach (LOCALES as $lang) {
-                                echo "<li>$lang</li>";
+                            foreach (LOCALES as $code => $name) {
+                                echo "<li title=\"$name\">$code</li>";
                             }
                         ?>
                     </ul>

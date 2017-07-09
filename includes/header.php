@@ -27,9 +27,9 @@
         '/pri'       => ['pri'],
         '/kontakti'  => ['kontakti']
     ]);
-    define('LOCALES', ['da', 'eo']);
+    define('LOCALES', ['da' => 'Dansk', 'eo' => 'Esperanto']);
 
-    if (in_array($_COOKIE['lang'], LOCALES)) {
+    if (array_key_exists($_COOKIE['lang'], LOCALES)) {
         define('LOCALE', $_COOKIE['lang']);
     } else {
         define('LOCALE', 'eo');
