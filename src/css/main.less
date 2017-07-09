@@ -213,12 +213,18 @@ main>div {
 
 .flex-col-2 {
     display: flex;
+    flex-wrap: wrap;
 
     &>* {
-        width: 100%;
+        flex-basis: 0;
+        flex-grow: 1;
     }
 
-    &>:first-child {
+    &:not(.flex-col-reverse)>:first-child, &.flex-col-reverse>:last-child {
         margin-right: 32px;
     }
+}
+
+.flex-col-reverse {
+    flex-direction: row-reverse;
 }
