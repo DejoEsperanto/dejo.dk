@@ -19,6 +19,6 @@
      */
 
     $data = [
-        'titleBox' => true
+        'titleBox' => false
     ];
 ?>
