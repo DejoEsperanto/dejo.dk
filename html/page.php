@@ -27,10 +27,17 @@
         -->
         <meta charset="utf-8">
         <title>DEJO - <?=$data['title']?></title>
-        <link type="text/css" href="css/main.css?v=<?=VERSION?>">
+        <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
         <?php require $page . '_head.php'; ?>
     </head>
     <body>
-        <?php require $page . '_body.php'; ?>
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+            <?php require $page . '_content.php'; ?>
+        </main>
+        <footer></footer>
+        <script src="js/main.js"></script>
     </body>
 </html>
