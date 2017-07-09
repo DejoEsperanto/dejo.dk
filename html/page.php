@@ -78,23 +78,28 @@
         </main>
         <footer>
             <div>
-                <h4><?=LSTR['footer']['contact']?></h4>
-                <p>
-                    <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'&'+'#'+'1'+'0'+'9'+';'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+ 'd'+'e'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'&'+'#'+'6'+'4'+';'+'%'+'6'+'4'+'%'+'6'+'&'+'#'+'5'+'3'+';'+'j'+ '%'+'6'+'F'+'&'+'#'+'4'+'6'+';'+'d'+'%'+'6'+'B'+"'"+'>'+'d'+'e'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+ '6'+'4'+';'+'d'+'e'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'&'+'#'+'4'+'6'+';'+'d'+'&'+'#'+'1'+'0'+'7'+';'+'<'+ '/'+'a'+'>');</script>
-                </p>
-                <br/>
-                <p>
-                    <?=LSTR['footer']['copyright']?><br/>
-                    <?php
-                        $line = LSTR['footer']['license_code'];
-                        $line = str_replace('$1', '<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">', $line);
-                        $line = str_replace('$2', '</a>', $line);
-                        $line = str_replace('$3', '<a href="https://github.com/DejoEsperanto/dejo.dk">', $line);
-                        $line = str_replace('$4', '</a>', $line);
-                        echo $line;
-                    ?><br/>
-                    <?=LSTR['footer']['license_contents']?>
-                </p>
+                <div>
+                    <h4><?=LSTR['footer']['contact']?></h4>
+                    <p>
+                        <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'&'+'#'+'1'+'0'+'9'+';'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+ 'd'+'e'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'&'+'#'+'6'+'4'+';'+'%'+'6'+'4'+'%'+'6'+'&'+'#'+'5'+'3'+';'+'j'+ '%'+'6'+'F'+'&'+'#'+'4'+'6'+';'+'d'+'%'+'6'+'B'+"'"+'>'+'d'+'e'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'&'+'#'+ '6'+'4'+';'+'d'+'e'+'&'+'#'+'1'+'0'+'6'+';'+'o'+'&'+'#'+'4'+'6'+';'+'d'+'&'+'#'+'1'+'0'+'7'+';'+'<'+ '/'+'a'+'>');</script>
+                    </p>
+                    <br/>
+                    <p>
+                        <?=LSTR['footer']['copyright']?><br/>
+                        <?php
+                            $line = LSTR['footer']['license_code'];
+                            $line = str_replace('$1', '<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">', $line);
+                            $line = str_replace('$2', '</a>', $line);
+                            $line = str_replace('$3', '<a href="https://github.com/DejoEsperanto/dejo.dk">', $line);
+                            $line = str_replace('$4', '</a>', $line);
+                            echo $line;
+                        ?><br/>
+                        <?=LSTR['footer']['license_contents']?>
+                    </p>
+                </div>
+                <div>
+                    <img src="img/logo.svg">
+                </div>
             </div>
         </footer>
         <script src="js/main.js"></script>
