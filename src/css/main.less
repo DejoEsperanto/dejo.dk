@@ -104,9 +104,9 @@ nav {
         flex-wrap: wrap;
         align-items: center;
         height: 100%;
-        font-family: @font-text;
+        font-family: @font-title;
         color: @white;
-        font-size: 22px;
+        font-size: 28px;
 
         &>li {
             display: flex;
@@ -127,5 +127,19 @@ nav {
                 }
             }
         }
+    }
+}
+
+#titleBox {
+    background-color: @white;
+    height: 128px;
+
+    &>div {
+        font-family: @font-title;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        font-weight: 300;
     }
 }

@@ -3,6 +3,7 @@
 
     $pageDetails = PAGES[$_SERVER['REQUEST_URI']];
     define(PAGE, '../includes/templates/' . $pageDetails[0]);
+    define(TITLE, LSTR['pages']['index']['title']);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
         http_response_code(404);
@@ -33,7 +34,7 @@
              * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
         -->
         <meta charset="utf-8">
-        <title>DEJO - <?=LSTR['pages']['index']['title']?></title>
+        <title>DEJO - <?=TITLE?></title>
         <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
         <?php require PAGE . '_head.php'; ?>
     </head>
@@ -65,13 +66,11 @@
                 </div>
             </nav>
         </header>
-        <section id="titleBox">
-            <?php
-                if ($data['titleBox']) {
-                    require 'titlebox.php';
-                }
-            ?>
-        </section>
+        <?php
+            if ($data['titleBox']) {
+                require 'titlebox.php';
+            }
+        ?>
         <main>
             <div>
                 <?php require PAGE . '_content.php'; ?>
