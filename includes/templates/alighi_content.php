@@ -63,7 +63,18 @@
           <div></div>
           <div>
                <label><?=LSTR['pages']['alighi']['form']['country']?>*</label>
-               <select name="country" tabindex="5" required></select>
+               <select name="country" tabindex="5" required>
+                    <?php
+                         $default_country = LSTR['pages']['alighi']['default_country'];
+                         foreach (LSTR['pages']['alighi']['countries'] as $country) {
+                              echo "<option value=\"$country\"";
+                              if ($country === $default_country) {
+                                   echo ' selected';
+                              }
+                              echo ">$country</option>";
+                         }
+                    ?>
+               </select>
           </div>
           <div>
                <label><?=LSTR['pages']['alighi']['form']['city']?></label>

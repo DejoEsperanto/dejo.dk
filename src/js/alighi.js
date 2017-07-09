@@ -19,7 +19,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const zipcodeInput = $('[name=zipcode]'),
-          cityInput    = $('#city');
+          cityInput    = $('#city'),
+          countryInput = $('[name=country]');
 
     zipcodeInput.addEventListener('input', () => {
         const zip = zipcodeInput.value;
