@@ -196,7 +196,29 @@ p {
     font-family: @font-text;
 }
 
+p.p {
+    text-align: justify;
+    line-height: 120%;
+    font-size: 110%;
+}
+
 main>div {
     padding-top: 24px;
     padding-bottom: 100px;
+}
+
+.col-2 {
+    column-count: 2;
+}
+
+.flex-col-2 {
+    display: flex;
+
+    &>* {
+        width: 100%;
+    }
+
+    &>:first-child {
+        margin-right: 32px;
+    }
 }
