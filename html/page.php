@@ -3,7 +3,7 @@
 
     $pageDetails = PAGES[$_SERVER['REQUEST_URI']];
     define(PAGE, '../includes/templates/' . $pageDetails[0]);
-    define(TITLE, LSTR['pages']['index']['title']);
+    define(TITLE, LSTR['pages'][$pageDetails[0]]['title']);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
         http_response_code(404);
