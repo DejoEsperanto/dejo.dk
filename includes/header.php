@@ -19,8 +19,12 @@
      */
 
     define('VERSION', '1.0.0');
-    define('PAGES', [
-        '/' => [ 'index' ]
+    define('PAGES', [ /* path => [filename] */
+        '/' => ['index'],
+        '/novajhoj'  => ['novajhoj'],
+        '/okazajhoj' => ['okazajhoj'],
+        '/pri'       => ['pri'],
+        '/kontakti'  => ['kontakti']
     ]);
     define('LOCALES', ['da', 'eo']);
 

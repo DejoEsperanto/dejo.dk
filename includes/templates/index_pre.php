@@ -19,6 +19,6 @@
      */
 
     $data = [
-        'title' => LSTR['frontpage']['title']
+        'title' => LSTR['pages']['index']['title']
     ];
 ?>

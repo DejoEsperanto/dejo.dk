@@ -87,6 +87,8 @@ nav {
     padding-bottom: 16px;
 
     &>div {
+        display: flex;
+        justify-content: space-between;
 
         &>a>img {
             height: 100%;
@@ -94,3 +96,28 @@ nav {
     }
 }
 
+#menu {
+    &>ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-family: @font-text;
+        color: @white;
+        font-size: 22px;
+
+        &>li {
+            &:not(:last-child) {
+                margin-right: 16px;
+            }
+
+            &>a {
+                color: inherit;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

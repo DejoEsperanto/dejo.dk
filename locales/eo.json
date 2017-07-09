@@ -1,5 +1,19 @@
 {
-    "frontpage": {
-        "title": "Hejmo"
+    "pages": {
+        "index": {
+            "title": "Hejmo"
+        },
+        "novajhoj": {
+            "title": "Novaĵoj"
+        },
+        "pri": {
+            "title": "Pri ni"
+        },
+        "kontakti": {
+            "title": "Kontakti"
+        },
+        "okazajhoj": {
+            "title": "Okazaĵoj"
+        }
     }
 }

@@ -2,14 +2,14 @@
     require '../includes/header.php';
 
     $pageDetails = PAGES[$_SERVER['REQUEST_URI']];
-    $page = '../includes/templates/' . $pageDetails[0];
-    $notFound = !file_exists(dirname(__FILE__) . "/${page}_pre.php");
+    define(PAGE, '../includes/templates/' . $pageDetails[0]);
+    $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
         http_response_code(404);
         echo '404 File not found';
         die();
     }
-    require "${page}_pre.php";
+    require PAGE . '_pre.php';
 ?>
 <!doctype html>
 <html>
@@ -35,7 +35,7 @@
         <meta charset="utf-8">
         <title>DEJO - <?=$data['title']?></title>
         <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
-        <?php require "${page}_head.php"; ?>
+        <?php require PAGE . '_head.php'; ?>
     </head>
     <body>
         <header>
@@ -53,10 +53,12 @@
             <nav>
                 <div>
                     <a href="/"><img src="img/logo.svg"/></a>
-                    <div id="menuo">
+                    <div id="menu">
                         <ul>
                             <?php
-
+                                foreach (PAGES as $url => $page) {
+                                    echo '<li><a href="' . $url . '">' . LSTR['pages'][$page[0]]['title'] . '</a></li>';
+                                }
                             ?>
                         </ul>
                     </div>
@@ -66,7 +68,7 @@
         <section id="titleBox"></section>
         <main>
             <div>
-                <?php require "${page}_content.php"; ?>
+                <?php require PAGE . '_content.php'; ?>
             </div>
         </main>
         <footer>
