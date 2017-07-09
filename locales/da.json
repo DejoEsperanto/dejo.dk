@@ -16,7 +16,20 @@
             "title": "Events"
         },
         "alighi": {
-            "title": "Bliv medlem"
+            "title": "Bliv medlem",
+            "form": {
+                "firstname": "Fornavn",
+                "lastname": "Efternavn",
+                "birthday": "Fødselsdag",
+                "address": "Adresse",
+                "country": "Land",
+                "zipcode": "Postnummer",
+                "city": "By",
+                "email": "E-mail-adresse",
+                "phone": "Telefonnummer",
+                "submit": "Bliv medlem!"
+            },
+            "required": "Obligatoriske"
         }
     },
     "footer": {

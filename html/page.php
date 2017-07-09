@@ -1,7 +1,11 @@
 <?php
     require '../includes/header.php';
 
-    $pageDetails = PAGES[$_SERVER['REQUEST_URI']];
+    $uri = $_SERVER['REQUEST_URI'];
+    if ($uri !== '/' && substr($uri, -1) === '/') {
+        $uri = substr($uri, 0, strlen($uri) - 1);
+    }
+    $pageDetails = PAGES[$uri];
     define(PAGE, '../includes/templates/' . $pageDetails[0]);
     define(TITLE, LSTR['pages'][$pageDetails[0]]['title']);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
@@ -35,7 +39,7 @@
         -->
         <meta charset="utf-8">
         <title>DEJO - <?=TITLE?></title>
-        <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
+        <link rel="stylesheet" href="/css/main.css?v=<?=VERSION?>">
         <?php require PAGE . '_head.php'; ?>
     </head>
     <body>
@@ -53,7 +57,7 @@
             </div>
             <nav>
                 <div>
-                    <a href="/"><img src="img/logo.svg"/></a>
+                    <a href="/"><img src="/img/logo.svg"/></a>
                     <div id="menu">
                         <ul>
                             <?php
@@ -98,10 +102,10 @@
                     </p>
                 </div>
                 <div>
-                    <img src="img/logo.svg">
+                    <img src="/img/logo.svg">
                 </div>
             </div>
         </footer>
-        <script src="js/main.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>

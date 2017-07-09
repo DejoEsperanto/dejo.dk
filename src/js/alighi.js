@@ -17,23 +17,6 @@
  * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
  */
 
-/* UTIL */
-
-const $ = function (el, parent = document) {
-    return parent.querySelector(el);
-};
-
-const $$ = function (el, parent = document) {
-    return parent.querySelectorAll(el);
-};
-
-/* Menu */
-$$('#preMenu>div>ul>li').forEach(el => {
-    el.addEventListener('click', e => {
-        if (e.button !== 0)
-            return;
-
-        document.cookie = `lang=${el.innerText}`;
-        location.reload();
-    });
+document.addEventListener('ready', () => {
+    
 });

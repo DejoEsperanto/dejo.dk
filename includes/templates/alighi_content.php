@@ -19,4 +19,61 @@
      */
 ?>
 
+<form method="post" action="/dankon_pro_aligho">
+     <div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['firstname']?>*</label>
+               <input name="firstname" tabindex="1" required>
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['birthday']?>*</label>
+               <?php
+                    $max = new DateTime();
+                    $min = new DateTime();
+                    $min->modify('-30 years');
+               ?>
+               <input name="birthday" tabindex="3" type="date" max="<?=$max->format('Y-m-d')?>" min="<?=$min->format('Y') + 1?>-01-01" required>
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['address']?></label>
+               <input name="address" tabindex="4">
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['zipcode']?></label>
+               <input type="number" tabindex="6" step="1" min="0" max="9999" name="zipcode">
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['email']?>*</label>
+               <input name="email" tabindex="7" type="email" required>
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['phone']?></label>
+               <input name="phone" tabindex="8" type="tel">
+          </div>
+     </div>
+     <div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['lastname']?></label>
+               <input name="lastname" tabindex="2">
+          </div>
+          <div></div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['country']?>*</label>
+               <select name="country" tabindex="5" required></select>
+          </div>
+          <div>
+               <label><?=LSTR['pages']['alighi']['form']['city']?></label>
+               <input disabled>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div>
+               <input type="submit" tabindex="9" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
+          </div>
+     </div>
+</form>
 
+<p>* <?=LSTR['pages']['alighi']['required']?></p>
+
+<script src="/js/alighi.js"></script>

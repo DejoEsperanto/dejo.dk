@@ -16,7 +16,20 @@
             "title": "Okazaĵoj"
         },
         "alighi": {
-            "title": "Aliĝi"
+            "title": "Aliĝi",
+            "form": {
+                "firstname": "Antaŭnomo",
+                "lastname": "Familinomo",
+                "birthday": "Naskiĝtago",
+                "address": "Adreso",
+                "country": "Lando",
+                "zipcode": "Poŝtnumero",
+                "city": "Urbo",
+                "email": "Retpoŝtadreso",
+                "phone": "Telefonnumero",
+                "submit": "Aliĝi!"
+            },
+            "required": "Devigataj"
         }
     },
     "footer": {
