@@ -19,6 +19,6 @@
      */
 
     $data = [
-        'title' => LSTR['pages']['index']['title']
+        'titleBox' => true
     ];
 ?>

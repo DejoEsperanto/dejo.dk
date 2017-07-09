@@ -33,7 +33,7 @@
              * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
         -->
         <meta charset="utf-8">
-        <title>DEJO - <?=$data['title']?></title>
+        <title>DEJO - <?=LSTR['pages']['index']['title']?></title>
         <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
         <?php require PAGE . '_head.php'; ?>
     </head>
@@ -65,7 +65,13 @@
                 </div>
             </nav>
         </header>
-        <section id="titleBox"></section>
+        <section id="titleBox">
+            <?php
+                if ($data['titleBox']) {
+                    require 'titlebox.php';
+                }
+            ?>
+        </section>
         <main>
             <div>
                 <?php require PAGE . '_content.php'; ?>
