@@ -27,7 +27,8 @@
                 "city": "Urbo",
                 "email": "Retpoŝtadreso",
                 "phone": "Telefonnumero",
-                "submit": "Aliĝi!"
+                "submit": "Aliĝi!",
+                "individual": "Mi ankaŭ volas aliĝi al UEA/TEJO kiel individua membro"
             },
             "required": "Devigataj"
         }

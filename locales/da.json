@@ -27,7 +27,8 @@
                 "city": "By",
                 "email": "E-mail-adresse",
                 "phone": "Telefonnummer",
-                "submit": "Bliv medlem!"
+                "submit": "Bliv medlem!",
+                "individual": "Jeg vil også være individuelt medlem hos UEA/TEJO"
             },
             "required": "Obligatoriske"
         }

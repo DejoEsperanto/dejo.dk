@@ -17,6 +17,26 @@
  * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
  */
 
-document.addEventListener('ready', () => {
-    
+document.addEventListener('DOMContentLoaded', () => {
+    const zipcodeInput = $('[name=zipcode]'),
+          cityInput    = $('#city');
+
+    zipcodeInput.addEventListener('input', () => {
+        const zip = zipcodeInput.value;
+        let city = 'UKENDT';
+
+        if (zip >= 1000 && zip <= 1999) {
+            if (zip <= 1499) {
+                city = 'København K';
+            } else if (zip <= 1799) {
+                city = 'København V';
+            } else if (zip <= 1999) {
+                city = 'Frederiksberg C';
+            }
+        } else if (zipcodes[zip]) {
+            city = zipcodes[zip];
+        }
+
+        cityInput.value = city;
+    });
 });

@@ -50,6 +50,10 @@
                <label><?=LSTR['pages']['alighi']['form']['phone']?></label>
                <input name="phone" tabindex="8" type="tel">
           </div>
+          <div class="checkbox">
+               <input type="checkbox">
+               <label><?=LSTR['pages']['alighi']['form']['individual']?></label>
+          </div>
      </div>
      <div>
           <div>
@@ -63,7 +67,7 @@
           </div>
           <div>
                <label><?=LSTR['pages']['alighi']['form']['city']?></label>
-               <input disabled>
+               <input id="city" disabled>
           </div>
           <div></div>
           <div></div>
@@ -76,4 +80,5 @@
 
 <p>* <?=LSTR['pages']['alighi']['required']?></p>
 
+<script src="/js/zipcodes.js"></script>
 <script src="/js/alighi.js"></script>
