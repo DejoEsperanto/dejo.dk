@@ -22,4 +22,13 @@
     define('PAGES', [
         '/' => 'index'
     ]);
-    define('LOCALE', $_COOKIE['lang']);
+    define('LOCALES', ['da-DK', 'eo']);
+
+    if (in_array($_COOKIE['lang'], LOCALES)) {
+        define('LOCALE', $_COOKIE['lang']);
+    } else {
+        define('LOCALE', 'eo');
+        setcookie('lang', 'eo');
+    }
+
+    define('LSTR', json_decode(file_get_contents('../locales/' . LOCALE . '.json'), true));

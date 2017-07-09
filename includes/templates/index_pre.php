@@ -19,6 +19,6 @@
      */
 
     $data = [
-        'title' => 'Startside'
+        'title' => LSTR['frontpage']['title']
     ];
 ?>
