@@ -15,5 +15,11 @@
         "okazajhoj": {
             "title": "Okazaĵoj"
         }
+    },
+    "footer": {
+        "contact": "Kontakti",
+        "copyright": "&copy; Dana Esperantista Junulara Organizo 1986&ndash;2017",
+        "license_code": "Programkodo disponebla laŭ $1GNU Ĝenerala Publika Permesilo v3$2 aŭ pli nova. $3GitHub$4",
+        "license_contents": "Enhavo disponebla laŭ la permesilo <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.eo\">Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda</a> krom se alie diriĝis"
     }
 }
