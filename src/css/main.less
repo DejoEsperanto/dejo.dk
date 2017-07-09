@@ -31,7 +31,6 @@
 /* GENERAL */
 body {
     min-height: 100vh;
-    background-color: @background-color;
 
     &>:not(header), &>header>* {
         width: 100%;
@@ -77,6 +76,20 @@ body {
                     background-color: @background-color;
                 }
             }
+        }
+    }
+}
+
+nav {
+    background-color: @background-color;
+    height: 128px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &>div {
+
+        &>a>img {
+            height: 100%;
         }
     }
 }

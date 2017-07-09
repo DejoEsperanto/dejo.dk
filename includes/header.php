@@ -20,7 +20,7 @@
 
     define('VERSION', '1.0.0');
     define('PAGES', [
-        '/' => 'index'
+        '/' => [ 'index' ]
     ]);
     define('LOCALES', ['da', 'eo']);
 

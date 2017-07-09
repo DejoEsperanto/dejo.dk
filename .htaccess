@@ -21,4 +21,4 @@ RewriteBase /
 
 RewriteRule ^css/(.+\.css)$ dist/css/$1 [L]
 RewriteRule ^js/(.+\.js)$ dist/js/$1 [L]
-RewriteRule ^(?!dist)(.*)/?$ html/page.php [L]
+RewriteRule ^(?!dist)(?!img)(.*)/?$ html/page.php [L]

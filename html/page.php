@@ -1,7 +1,14 @@
 <?php
     require '../includes/header.php';
 
-    $page = '../includes/templates/' . PAGES[$_SERVER['REQUEST_URI']];
+    $pageDetails = PAGES[$_SERVER['REQUEST_URI']];
+    $page = '../includes/templates/' . $pageDetails[0];
+    $notFound = !file_exists(dirname(__FILE__) . "/${page}_pre.php");
+    if ($notFound) {
+        http_response_code(404);
+        echo '404 File not found';
+        die();
+    }
     require "${page}_pre.php";
 ?>
 <!doctype html>
@@ -44,9 +51,19 @@
                 </div>
             </div>
             <nav>
-                <div></div>
+                <div>
+                    <a href="/"><img src="img/logo.svg"/></a>
+                    <div id="menuo">
+                        <ul>
+                            <?php
+
+                            ?>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
+        <section id="titleBox"></section>
         <main>
             <div>
                 <?php require "${page}_content.php"; ?>
