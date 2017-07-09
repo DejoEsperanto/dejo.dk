@@ -19,13 +19,65 @@
 
 /* VARIABLES */
 @background-color: #729c34;
+@white: #eee;
+@lang-color: #3b3b3d;
+@font-title: 'Dosis', sans-serif;
+@font-text: 'Open Sans', sans-serif;
 
 /* IMPORT */
 @import 'reset.less';
+@import 'fonts.less';
 
 /* GENERAL */
 body {
     min-height: 100vh;
     background-color: @background-color;
+
+    &>:not(header), &>header>* {
+        width: 100%;
+
+        &>div {
+            width: 100%;
+            height: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 8px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+#preMenu {
+    height: 48px;
+    background-color: @white;
+
+    &>div {
+        &>ul {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-family: @font-text;
+
+            &>li {
+                display: flex;
+                width: 32px;
+                height: 24px;
+                justify-content: center;
+                align-items: center;
+                background-color: @lang-color;
+                color: @white;
+                border-radius: 2px;
+                cursor: pointer;
+
+                &:not(:last-child) {
+                    margin-right: 2px;
+                }
+
+                &:hover {
+                    background-color: @background-color;
+                }
+            }
+        }
+    }
 }
 

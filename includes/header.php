@@ -22,7 +22,7 @@
     define('PAGES', [
         '/' => 'index'
     ]);
-    define('LOCALES', ['da-DK', 'eo']);
+    define('LOCALES', ['da', 'eo']);
 
     if (in_array($_COOKIE['lang'], LOCALES)) {
         define('LOCALE', $_COOKIE['lang']);

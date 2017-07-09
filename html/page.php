@@ -2,7 +2,7 @@
     require '../includes/header.php';
 
     $page = '../includes/templates/' . PAGES[$_SERVER['REQUEST_URI']];
-    require $page . '_pre.php';
+    require "${page}_pre.php";
 ?>
 <!doctype html>
 <html>
@@ -28,16 +28,33 @@
         <meta charset="utf-8">
         <title>DEJO - <?=$data['title']?></title>
         <link rel="stylesheet" href="css/main.css?v=<?=VERSION?>">
-        <?php require $page . '_head.php'; ?>
+        <?php require "${page}_head.php"; ?>
     </head>
     <body>
         <header>
-            <nav></nav>
+            <div id="preMenu">
+                <div>
+                    <ul>
+                        <?php
+                            foreach (LOCALES as $lang) {
+                                echo "<li>$lang</li>";
+                            }
+                        ?>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <div></div>
+            </nav>
         </header>
         <main>
-            <?php require $page . '_content.php'; ?>
+            <div>
+                <?php require "${page}_content.php"; ?>
+            </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div></div>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>

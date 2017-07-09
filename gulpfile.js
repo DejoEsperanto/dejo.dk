@@ -24,6 +24,8 @@ const plumber = require('gulp-plumber');
 const less = require('gulp-less');
 const path = require('path');
 const sourcemaps = require('gulp-sourcemaps');
+const Prefix = require('less-plugin-autoprefix');
+const prefix = new Prefix({ browsers: [ "last 2 versions" ] });
 const compileJS = function (source) {''
     return source
         .pipe(plumber())
@@ -37,7 +39,7 @@ const compileCSS = function (source) {
     return source
         .pipe(plumber())
         .pipe(sourcemaps.init())
-        .pipe(less({ paths: [path.join(__dirname, 'css')] }))
+        .pipe(less({ paths: [path.join(__dirname, 'css')], plugins: [prefix] }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/css'));
 };
