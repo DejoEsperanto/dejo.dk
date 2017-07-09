@@ -23,14 +23,20 @@
 @lang-color: #3b3b3d;
 @font-title: 'Dosis', sans-serif;
 @font-text: 'Open Sans', sans-serif;
+@footer-height: 128px;
 
 /* IMPORT */
 @import 'reset.less';
 @import 'fonts.less';
 
 /* GENERAL */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    min-height: 100vh;
+    margin: 0 0 @footer-height;
 
     &>:not(header), &>header>* {
         width: 100%;
@@ -142,4 +148,12 @@ nav {
         padding-left: 24px;
         font-weight: 300;
     }
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: @footer-height;
+    background-color: red;
 }
