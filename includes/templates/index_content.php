@@ -17,23 +17,6 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+?>
 
-    define('VERSION', '1.0.0');
-    define('PAGES', [ /* path => [filename] */
-        '/' => ['index'],
-        '/novajhoj'  => ['novajhoj'],
-        '/okazajhoj' => ['okazajhoj'],
-        '/alighi'    => ['alighi'],
-        '/pri'       => ['pri'],
-        '/kontakti'  => ['kontakti']
-    ]);
-    define('LOCALES', ['da', 'eo']);
 
-    if (in_array($_COOKIE['lang'], LOCALES)) {
-        define('LOCALE', $_COOKIE['lang']);
-    } else {
-        define('LOCALE', 'eo');
-        setcookie('lang', 'eo');
-    }
-
-    define('LSTR', json_decode(file_get_contents('../locales/' . LOCALE . '.json'), true));
