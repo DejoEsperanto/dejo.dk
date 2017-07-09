@@ -102,7 +102,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="/img/logo.svg" alt="<?=LSTR['footer']['logo_alt']?>">
+                    <img src="/img/logo_nigra.svg" alt="<?=LSTR['footer']['logo_alt']?>">
                 </div>
             </div>
         </footer>
