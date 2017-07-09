@@ -33,7 +33,11 @@
             "required": "Devigataj"
         }
     },
+    "header": {
+        "logo_alt": "Logo de DEJO"
+    },
     "footer": {
+        "logo_alt": "Logo de DEJO",
         "contact": "Kontakti",
         "moreinfo": "Pli da informoj",
         "copyright": "&copy; Dana Esperantista Junulara Organizo 1986&ndash;2017",

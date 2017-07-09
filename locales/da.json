@@ -33,7 +33,11 @@
             "required": "Obligatoriske"
         }
     },
+    "header": {
+        "logo_alt": "DEJOs logo"
+    },
     "footer": {
+        "logo_alt": "DEJOs logo",
         "contact": "Kontakt",
         "moreinfo": "Mere information",
         "copyright": "&copy; Dansk Esperanto Ungdomsforening 1986&ndash;2017",

@@ -57,7 +57,7 @@
             </div>
             <nav>
                 <div>
-                    <a href="/"><img src="/img/logo.svg"/></a>
+                    <a href="/"><img src="/img/logo.svg" alt="<?=LSTR['header']['logo_alt']?>"></a>
                     <div id="menu">
                         <ul>
                             <?php
@@ -102,7 +102,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="/img/logo.svg">
+                    <img src="/img/logo.svg" alt="<?=LSTR['footer']['logo_alt']?>">
                 </div>
             </div>
         </footer>
