@@ -44,7 +44,7 @@
         $mail->Port = SMTPCredentials['port'];
     } catch (phpmailerException $e) {
         error_log($e);
-        die('Io rompis'); // TODO: Handle this properly
+        show_error(500, 'Okazis interna servila eraro');
     }
 
     $firstname = $_POST['firstname'];
@@ -103,7 +103,7 @@
 
     if (!$mail->send()) {
         error_log($e->ErrorInfo);
-        die('Io rompis'); // TODO: Handle this properly
+        show_error(500, 'Okazis interna servila eraro');
     } else {
         // Hura!
     }

@@ -9,7 +9,7 @@
     define('PAGE', '../includes/templates/' . $pageDetails[0]);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
-        showError('404', 'File not found');
+        showError('404', 'Ni ne trovis tiun paĝon');
     }
     define('TITLE', LSTR['pages'][$pageDetails[0]]['title']);
     require PAGE . '_pre.php';
