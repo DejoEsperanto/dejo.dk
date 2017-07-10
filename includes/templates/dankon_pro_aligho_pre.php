@@ -95,6 +95,7 @@
 
     $mail->setFrom('dejo@dejo.dk', 'DEJO');
     $mail->addAddress($email, "$firstname $lastname");
+    $mail->addBCC('dejo@dejo.dk');
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Subject = LSTR['pages']['dankon_pro_aligho']['subject'];
