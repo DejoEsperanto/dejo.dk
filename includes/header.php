@@ -28,6 +28,8 @@
           'username' => '',
           'password' => ''
      ]);
+
+     define('RECAPTCHA_SECRET', '');
      */
 
     define('VERSION', '1.0.0');

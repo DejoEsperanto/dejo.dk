@@ -22,12 +22,39 @@
         'titleBox' => true
     ];
 
-    if (!isset($_POST['firstname']) ||
-        !isset($_POST['birthday'])  ||
-        !isset($_POST['country'])   ||
-        !isset($_POST['email'])) {
+    if (!isset($_POST['firstname'])           ||
+        !isset($_POST['birthday'])            ||
+        !isset($_POST['country'])             ||
+        !isset($_POST['email'])               ||
+        !isset($_POST['g-recaptcha-response'])) {
         header("Location: /alighi", true, 307);
         die();
+    }
+
+    // Verify recaptcha
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    $data = [
+        'secret' => RECAPTCHA_SECRET,
+        'response' => $_POST['g-recaptcha-response'],
+        'remoteip' => $_SERVER['REMOTE_ADDR']
+    ];
+    $options = [
+        'http' => [
+            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method' => 'POST',
+            'content' => http_build_query($data)
+        ]
+    ];
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    if (!$result) {
+        error_log($e);
+        showError(500, 'Okazis interna servila eraro');
+    }
+    $recaptchaResult = json_decode($result, true);
+    if (!$recaptchaResult['success']) {
+        error_log($e);
+        showError(401, 'Nevalida reCAPTCHA');
     }
 
     require_once __DIR__ . '/../libraries/PHPMailer/PHPMailerAutoload.php';
@@ -44,7 +71,7 @@
         $mail->Port = SMTPCredentials['port'];
     } catch (phpmailerException $e) {
         error_log($e);
-        show_error(500, 'Okazis interna servila eraro');
+        showError(500, 'Okazis interna servila eraro');
     }
 
     $firstname = $_POST['firstname'];
@@ -104,8 +131,6 @@
 
     if (!$mail->send()) {
         error_log($e->ErrorInfo);
-        show_error(500, 'Okazis interna servila eraro');
-    } else {
-        // Hura!
+        showError(500, 'Okazis interna servila eraro');
     }
 ?>

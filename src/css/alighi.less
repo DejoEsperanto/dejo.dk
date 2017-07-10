@@ -19,8 +19,13 @@
 
 @import 'variables.less';
 
+body {
+    overflow-x: hidden;
+}
+
 form {
     display: flex;
+    margin-bottom: 32px;
     &>div {
         &:first-child {
             margin-right: 32px;
@@ -51,6 +56,16 @@ form {
                 box-sizing: border-box;
             }
         }
+    }
+
+    & .g-recaptcha {
+        transform: scale(.82);
+        position: relative;
+        left: -21px;
+    }
+
+    & input[type=submit] {
+        margin-top: 6px;
     }
 }
 

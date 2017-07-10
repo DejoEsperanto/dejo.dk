@@ -61,6 +61,9 @@
                          <input name="individual" id="form_individual" tabindex="10" type="checkbox">
                          <label for="form_individual"><?=LSTR['pages']['alighi']['form']['individual']?></label>
                     </div>
+                    <div>
+                         <div class="g-recaptcha" data-sitekey="6LczlSgUAAAAAHdaXdWPN2aFrWDAmaneGHEaGb2v"></div>
+                    </div>
                </div>
                <div>
                     <div>
@@ -91,6 +94,7 @@
                     <div></div>
                     <div></div>
                     <div>
+                         <br/>
                          <input type="submit" tabindex="10" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
                     </div>
                </div>
