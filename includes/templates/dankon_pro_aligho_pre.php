@@ -68,6 +68,8 @@
     }
 
     $body = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '_inline.html');
+    $mail->AddEmbeddedImage(__DIR__ . '/../../email/logo_nigra.png', 'dejo-logo', 'logo.png');
+    $body = str_replace('${logo-cid}', 'dejo-logo', $body);
     $body = str_replace('${name}', "$firstname $lastname", $body);
     $body = str_replace('${payment}', "$payment kr", $body);
     $body = str_replace('${bank_number}', LSTR['pages']['dankon_pro_aligho']['bank_number'], $body);
