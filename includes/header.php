@@ -34,13 +34,14 @@
 
     define('VERSION', '1.0.0');
     define('PAGES', [ /* path => [filename, show in menu] */
-        '/'                  => ['index',             true],
-        '/novajhoj'          => ['novajhoj',          true],
-        '/okazajhoj'         => ['okazajhoj',         true],
-        '/alighi'            => ['alighi',            true],
-        '/pri'               => ['pri',               true],
-        '/kontakti'          => ['kontakti',          true],
-        '/dankon_pro_aligho' => ['dankon_pro_aligho', false]
+        '/'                    => ['index',               true],
+        '/novajhoj'            => ['novajhoj',            true],
+        '/okazajhoj'           => ['okazajhoj',           true],
+        '/alighi'              => ['alighi',              true],
+        '/pri'                 => ['pri',                 true],
+        '/kontakti'            => ['kontakti',            true],
+        '/dankon_pro_aligho'   => ['dankon_pro_aligho',   false],
+        '/dankon_pro_kontakto' => ['dankon_pro_kontakto', false]
     ]);
     define('LOCALES', ['da' => 'Dansk', 'eo' => 'Esperanto']);
 

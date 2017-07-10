@@ -310,6 +310,12 @@
             "text": [
                 "Mange tak for din tilmelding! Vi har nu sendt dig en bekræftelses-email med dine oplysninger og vores bankoplysninger. Tjek venligst din spam-mappe, hvis du ikke kan se emailen."
             ]
+        },
+        "dankon_pro_kontakto": {
+            "title": "Tak for din henvendelse!",
+            "text": [
+                "Mange tak for din henvendelse! Vi svarer hurtigst muligt."
+            ]
         }
     },
     "header": {

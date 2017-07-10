@@ -310,6 +310,12 @@
             "text": [
                 "Multan dankon pro via aliĝo! Ni nun sendis al vi konfirman retmesaĝon kun viaj informoj kaj nia bankokontonumero. Bonvolu kontroli vian spamujon se vi ne povas vidi la mesaĝon."
             ]
+        },
+        "dankon_pro_kontakto": {
+            "title": "Dankon pro via enkontaktiĝo!",
+            "text": [
+                "Multan dankon pro via enkontaktiĝo! Ni kiel eble plej frue respondos."
+            ]
         }
     },
     "header": {
