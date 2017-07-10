@@ -10,7 +10,13 @@
             "title": "Pri ni"
         },
         "kontakti": {
-            "title": "Kontakti"
+            "title": "Kontakti",
+            "form": {
+                "name": "Via nomo",
+                "email": "Via retpoŝtadreso",
+                "message": "Via mesaĝo",
+                "submit": "Sendi"
+            }
         },
         "okazajhoj": {
             "title": "Okazaĵoj"
