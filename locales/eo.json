@@ -293,7 +293,10 @@
             "subject": "Dankon pro via aliĝo!",
             "bank_number": "reg.: 1551, konto.: 8057370",
             "yes": "jes",
-            "no": "ne"
+            "no": "ne",
+            "text": [
+                "Multan dankon pro via aliĝo! Ni nun sendis al vi konfirman retmesaĝon kun viaj informoj kaj nia bankokontonumero. Bonvolu kontroli vian spamujon se vi ne povas vidi la mesaĝon."
+            ]
         }
     },
     "header": {

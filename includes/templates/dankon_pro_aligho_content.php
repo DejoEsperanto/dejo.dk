@@ -19,4 +19,5 @@
      */
 ?>
 
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['dankon_pro_aligho']['text'])?></p>
 

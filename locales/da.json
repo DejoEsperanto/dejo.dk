@@ -293,7 +293,10 @@
             "subject": "Tak for din tilmelding!",
             "bank_number": "reg.: 1551, konto.: 8057370",
             "yes": "ja",
-            "no": "nej"
+            "no": "nej",
+            "text": [
+                "Mange tak for din tilmelding! Vi har nu sendt dig en bekræftelses-email med dine oplysninger og vores bankoplysninger. Tjek venligst din spam-mappe, hvis du ikke kan se emailen."
+            ]
         }
     },
     "header": {
