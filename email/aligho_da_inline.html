@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Simple Transactional Email</title>
+    
+  </head>
+  <body class="" style="background-color: #f6f6f6; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0; padding: 0;" bgcolor="#f6f6f6">
+<style type="text/css">
+.btn-primary table td:hover { background-color: #34495e !important; }
+.btn-primary a:hover { background-color: #34495e !important; border-color: #34495e !important; }
+></style>
+    <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f6f6f6;" bgcolor="#f6f6f6">
+      <tr>
+        <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top"> </td>
+        <td class="container" style="font-family: sans-serif; font-size: 16px !important; vertical-align: top; display: block; max-width: 580px; width: 100% !important; margin: 0 auto; padding: 0;" valign="top">
+          <div class="content" style="box-sizing: border-box; display: block; max-width: 580px; margin: 0 auto; padding: 0;">
+
+            <!-- START CENTERED WHITE CONTAINER -->
+            <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0; font-size: 16px !important;">Tak for din tilmelding til DEJO.</span>
+            <table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 0 !important; border-left-width: 0 !important; border-right-width: 0 !important; background-color: #fff;" bgcolor="#fff">
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper" style="font-family: sans-serif; font-size: 16px !important; vertical-align: top; box-sizing: border-box; padding: 10px;" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">
+                            <img src="cid:${logo-cid}" alt="DEJOs logo" style="-ms-interpolation-mode: bicubic; max-width: 100%; border: none;">
+                        </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">
+                        <p style="font-family: sans-serif; font-size: 16px !important; font-weight: normal; margin: 0 0 15px;">Kære ${name}</p>
+                        <p style="font-family: sans-serif; font-size: 16px !important; font-weight: normal; margin: 0 0 15px;">Mange tak for din tilmelding til DEJO! Vi afventer nu din betaling på ${payment} til vores bankkonto med nummer ${bank_number}. Brug venligst dit fulde navn som besked i din overførsel; så ved vi, hvem der betaler! Kort efter vi har modtaget din betaling sender vi dig en ny e-mail.</p>
+                        <p style="font-family: sans-serif; font-size: 16px !important; font-weight: normal; margin: 0 0 15px;">Dine personlige oplysninger findes nedenfor. Hvis noget ikke passer så svar på denne e-mail og så retter vi det.</p>
+                        <p style="font-family: sans-serif; font-size: 16px !important; font-weight: normal; margin: 0 0 15px;">Vi ser frem til at anvende esperanto med dig!</p>
+                        <p style="font-family: sans-serif; font-size: 16px !important; font-weight: normal; margin: 0 0 15px;">Kærlige hilsener,<br>Dana Esperantista Junulara Organizo</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            <!-- END MAIN CONTENT AREA -->
+            </table>
+
+            <table class="main" style="margin-top: 24px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 0 !important; border-left-width: 0 !important; border-right-width: 0 !important; background-color: #fff;" bgcolor="#fff">
+              <tr>
+                <td class="wrapper" style="font-family: sans-serif; font-size: 16px !important; vertical-align: top; box-sizing: border-box; padding: 10px;" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                    <tr>
+                      <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">
+                        <b>Dine oplysninger</b>
+                        <table border="0" style="margin-top: 16px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" class="infotable">
+                          <tr>
+                            <th style="text-align: left;" align="left">Navn</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${firstname} ${lastname}</td>
+                          </tr>
+                          <tr>
+                            <th style="text-align: left;" align="left">Fødselsdag</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${birthday}</td>
+                          </tr>
+                          <tr>
+                            <th style="text-align: left;" align="left">Adresse</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${address}</td>
+                          </tr>
+                          <tr>
+                            <th style="text-align: left;" align="left">E-mail-adresse</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${email}</td>
+                          </tr>
+                          <tr>
+                            <th style="text-align: left;" align="left">Telefonnummer</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${phone}</td>
+                          </tr>
+                          <tr>
+                            <th style="text-align: left;" align="left">Tilmelding til UEA/TEJO</th>
+                            <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top">${uea-tejo}</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- START FOOTER -->
+            <div class="footer" style="clear: both; padding-top: 10px; text-align: center; width: 100%;" align="center">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                <tr>
+                  <td class="content-block" style="font-family: sans-serif; font-size: 16px !important; vertical-align: top; color: #999999; text-align: center;" align="center" valign="top">
+                    <span class="apple-link" style="color: #999999; font-size: 16px !important; text-align: center;">Dana Esperantista Junulara Organizo<br>Anker Jensens Vej 15, 1.t.v. c/o Mia Nordentoft, 8230 Åbyhøj<br>+45 20 98 92 63, <a href="mailto:dejo@dejo.dk" style="color: inherit !important; font-size: 16px !important; text-align: center; text-decoration: none !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;">dejo@dejo.dk</a></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by" style="font-family: sans-serif; font-size: 16px !important; vertical-align: top; color: #999999; text-align: center;" align="center" valign="top">
+<br>
+                    Sendt ved hjælp af <a href="http://htmlemail.io" style="color: #999999; font-size: 16px !important; text-align: center; text-decoration: none;">HTMLemail</a>.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END FOOTER -->
+            
+          <!-- END CENTERED WHITE CONTAINER -->
+          </div>
+        </td>
+        <td style="font-family: sans-serif; font-size: 16px !important; vertical-align: top;" valign="top"> </td>
+      </tr>
+    </table>
+  </body>
+</html>

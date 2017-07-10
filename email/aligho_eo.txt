@@ -1,0 +1,44 @@
+*Saluton ${name}*
+
+Multan dankon pro via aliĝo al DEJO! Ni
+nun atendos ĝis vi pagos la membrokotizon de ${payment} al nia
+bankokonto kun numero ${bank_number}. Nepre metu vian plenan
+nomon en la mesaĝkampo de via transpago por ke ni sciu kiu pagis.
+Baldaŭ post ricevo de via pago ni sendos al vi novan retmesaĝon.
+
+Troveblas viaj personaj informoj ĉi-sube.
+Se io ne ĝustas bonvolu sciigi nin simple per respondo al ĉi tiu
+mesaĝo.
+
+Ni antaŭĝojas esperantumi kun vi!
+
+Kore,
+Dana Esperantista Junulara Organizo
+
+---
+
+*Viaj informoj*
+
+Nomo
+${firstname} ${lastname}
+
+Naskiĝtago
+${birthday}
+
+Adreso
+${address}
+
+Retpoŝtadreso
+${email}
+
+Telefonnumero
+${phone}
+
+Kroma aliĝo al UEA/TEJO
+${uea-tejo}
+
+Dana Esperantista Junulara Organizo
+Anker Jensens Vej 15, 1.t.v. c/o Mia Nordentoft, 8230 Åbyhøj
++45 20 98 92 63, dejo@dejo.dk ( mailto:dejo@dejo.dk )
+
+Sendita helpe de HTMLemail ( http://htmlemail.io ).

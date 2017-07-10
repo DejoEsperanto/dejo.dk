@@ -1,0 +1,45 @@
+*Kære ${name}*
+
+Mange tak for din tilmelding til DEJO! Vi
+afventer nu din betaling på ${payment} til vores bankkonto med
+nummer ${bank_number}. Brug venligst dit fulde navn som besked i
+din overførsel; så ved vi, hvem der betaler! Kort efter vi har
+modtaget din betaling sender vi dig en ny e-mail.
+
+Dine personlige oplysninger findes
+nedenfor. Hvis noget ikke passer så svar på denne e-mail og så
+retter vi det.
+
+Vi ser frem til at anvende esperanto med
+dig!
+
+Kærlige hilsener,
+Dana Esperantista Junulara Organizo
+
+---
+
+*Dine oplysninger*
+
+Navn
+${firstname} ${lastname}
+
+Fødselsdag
+${birthday}
+
+Adresse
+${address}
+
+E-mail-adresse
+${email}
+
+Telefonnummer
+${phone}
+
+Tilmelding til UEA/TEJO
+${uea-tejo}
+
+Dana Esperantista Junulara Organizo
+Anker Jensens Vej 15, 1.t.v. c/o Mia Nordentoft, 8230 Åbyhøj
++45 20 98 92 63, dejo@dejo.dk
+
+Sendt ved hjælp af HTMLemail ( http://htmlemail.io ).
