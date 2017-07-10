@@ -88,7 +88,7 @@
                     </div>
                     <div>
                          <label form="form_city"><?=LSTR['pages']['alighi']['form']['city']?></label>
-                         <input id="form_city" tabindex="7">
+                         <input id="form_city" name="city" tabindex="7">
                     </div>
                     <div></div>
                     <div></div>

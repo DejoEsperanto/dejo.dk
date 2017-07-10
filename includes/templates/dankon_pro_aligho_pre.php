@@ -64,6 +64,9 @@
     }
     $birthday = $birthday->format('d/m/Y'); // TODO: Make this customizable
     $address = isset($_POST['address']) ? $_POST['address'] : '';
+    $address .= isset($_POST['zipcode']) ? ', ' . $_POST['zipcode'] : '';
+    $address .= isset($_POST['city']) ? ' ' . $_POST['city'] : '';
+    $address .= isset($_POST['country']) ? ', ' . $_POST['country'] : '';
     $email = $_POST['email'];
     $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
     $individual = isset($_POST['individual']) ? (bool)$_POST['individual'] : false;
