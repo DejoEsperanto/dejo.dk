@@ -7,13 +7,11 @@
     }
     $pageDetails = PAGES[$uri];
     define(PAGE, '../includes/templates/' . $pageDetails[0]);
-    define(TITLE, LSTR['pages'][$pageDetails[0]]['title']);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
-        http_response_code(404);
-        echo '404 File not found';
-        die();
+        showError('404', 'File not found');
     }
+    define(TITLE, LSTR['pages'][$pageDetails[0]]['title']);
     require PAGE . '_pre.php';
 ?>
 <!doctype html>
@@ -62,7 +60,9 @@
                         <ul>
                             <?php
                                 foreach (PAGES as $url => $page) {
-                                    echo '<li><a href="' . $url . '">' . LSTR['pages'][$page[0]]['title'] . '</a></li>';
+                                    if ($page[1]) {
+                                        echo '<li><a href="' . $url . '">' . LSTR['pages'][$page[0]]['title'] . '</a></li>';
+                                    }
                                 }
                             ?>
                         </ul>

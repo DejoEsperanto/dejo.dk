@@ -17,12 +17,25 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
-    
-    define('SMTP', [
-          'host' => '',
-          'port' => '',
-          'auth' => true,
-          'username' => '',
-          'password' => '',
-          'secure' => 'ssl'
-     ]);
+
+    $data = [
+        'titleBox' => true
+    ];
+
+    if (!isset($_POST['firstname']) ||
+        !isset($_POST['birthday'])  ||
+        !isset($_POST['country'])   ||
+        !isset($_POST['email'])) {
+        header("Location: /alighi", true, 307);
+        die();
+    }
+
+    require_once __DIR__ . '/../libraries/PHPMailer/class.phpmailer.php';
+
+    $mail = new PHPMailer(true);
+    $mail->IsSMTP();
+
+    try {
+        $mail->Host = 
+    }
+?>

@@ -17,15 +17,28 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+    
+    require 'passwords.php';
+    /*
+     define('SMTP', [
+          'host' => '',
+          'port' => '',
+          'auth' => true,
+          'secure' => 'ssl',
+          'username' => '',
+          'password' => ''
+     ]);
+     */
 
     define('VERSION', '1.0.0');
-    define('PAGES', [ /* path => [filename] */
-        '/' => ['index'],
-        '/novajhoj'  => ['novajhoj'],
-        '/okazajhoj' => ['okazajhoj'],
-        '/alighi'    => ['alighi'],
-        '/pri'       => ['pri'],
-        '/kontakti'  => ['kontakti']
+    define('PAGES', [ /* path => [filename, show in menu] */
+        '/'                  => ['index',             true],
+        '/novajhoj'          => ['novajhoj',          true],
+        '/okazajhoj'         => ['okazajhoj',         true],
+        '/alighi'            => ['alighi',            true],
+        '/pri'               => ['pri',               true],
+        '/kontakti'          => ['kontakti',          true],
+        '/dankon_pro_aligho' => ['dankon_pro_aligho', false]
     ]);
     define('LOCALES', ['da' => 'Dansk', 'eo' => 'Esperanto']);
 
@@ -37,3 +50,9 @@
     }
 
     define('LSTR', json_decode(file_get_contents('../locales/' . LOCALE . '.json'), true));
+
+    function showError($code, $message) {
+        http_response_code($code);
+        echo "$code $message";
+        die();
+    }
