@@ -289,7 +289,8 @@
             ]
         },
         "dankon_pro_aligho": {
-            "title": "Tak for din tilmelding!"
+            "title": "Tak for din tilmelding!",
+            "subject": "Tak for din tilmelding!"
         }
     },
     "header": {

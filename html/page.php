@@ -6,12 +6,12 @@
         $uri = substr($uri, 0, strlen($uri) - 1);
     }
     $pageDetails = PAGES[$uri];
-    define(PAGE, '../includes/templates/' . $pageDetails[0]);
+    define('PAGE', '../includes/templates/' . $pageDetails[0]);
     $notFound = !file_exists(dirname(__FILE__) . '/' . PAGE  . '_pre.php');
     if ($notFound) {
         showError('404', 'File not found');
     }
-    define(TITLE, LSTR['pages'][$pageDetails[0]]['title']);
+    define('TITLE', LSTR['pages'][$pageDetails[0]]['title']);
     require PAGE . '_pre.php';
 ?>
 <!doctype html>

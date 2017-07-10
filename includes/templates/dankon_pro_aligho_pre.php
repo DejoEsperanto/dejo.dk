@@ -36,6 +36,28 @@
     $mail->IsSMTP();
 
     try {
-        $mail->Host = 
+        $mail->Host = SMTP['host'];
+        $mail->SMTPAuth = SMTP['auth'];
+        $mail->Username = SMTP['username'];
+        $mail->Password = SMTP['password'];
+        $mail->SMTPSecure = SMTP['secure'];
+        $mail->Port = SMTP['port'];
+    } catch (phpmailerException $e) {
+        error_log($e);
+        die('Io rompis'); // TODO: Handle this properly
+    }
+
+    $mail->setFrom('dejo@dejo.dk', 'DEJO');
+    $mail->addAddress($_POST['email'], $_POST['firstname'] . ' ' . $_POST['latname'] ?: '');
+    $mail->isHTML(true);
+    $mail->Subject = LSTR['pages']['dankon_pro_aligho']['subject'];
+    $mail->Body = '<b>Test!</b>';
+    $mail->Body = '*Test!*';
+
+    if (!$mail->send()) {
+        error_log($e->ErrorInfo);
+        die('Io rompis'); // TODO: Handle this properly
+    } else {
+        // Hura!
     }
 ?>
