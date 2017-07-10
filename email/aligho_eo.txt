@@ -1,4 +1,4 @@
-*Saluton ${name}*
+Saluton ${name}
 
 Multan dankon pro via aliĝo al DEJO! Ni
 nun atendos ĝis vi pagos la membrokotizon de ${payment} al nia

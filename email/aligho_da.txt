@@ -1,4 +1,4 @@
-*Kære ${name}*
+Kære ${name}
 
 Mange tak for din tilmelding til DEJO! Vi
 afventer nu din betaling på ${payment} til vores bankkonto med

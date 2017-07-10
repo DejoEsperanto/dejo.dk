@@ -290,7 +290,10 @@
         },
         "dankon_pro_aligho": {
             "title": "Tak for din tilmelding!",
-            "subject": "Tak for din tilmelding!"
+            "subject": "Tak for din tilmelding!",
+            "bank_number": "reg.: 1551, konto.: 8057370",
+            "yes": "ja",
+            "no": "nej"
         }
     },
     "header": {

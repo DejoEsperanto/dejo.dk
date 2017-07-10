@@ -290,7 +290,10 @@
         },
         "dankon_pro_aligho": {
             "title": "Dankon pro via aliĝo!",
-            "subject": "Dankon pro via aliĝo!"
+            "subject": "Dankon pro via aliĝo!",
+            "bank_number": "reg.: 1551, konto.: 8057370",
+            "yes": "jes",
+            "no": "ne"
         }
     },
     "header": {

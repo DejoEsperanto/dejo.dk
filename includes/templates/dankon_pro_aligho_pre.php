@@ -49,14 +49,55 @@
 
     $firstname = $_POST['firstname'];
     $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+    try {
+        $birthday = DateTime::createFromFormat('Y-m-d', $_POST['birthday']);
+    } catch (Exception $e) {
+        header("Location: /alighi", true, 307);
+        die();
+    }
+    $birthday = $birthday->format('d/m/Y'); // TODO: Make this customizable
+    $address = isset($_POST['address']) ? $_POST['address'] : '';
+    $email = $_POST['email'];
+    $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
+    $individual = isset($_POST['individual']) ? (bool)$_POST['individual'] : false;
+
+    if ($individual) {
+        $payment = '290';
+    } else {
+        $payment = '100';
+    }
+
+    $body = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '_inline.html');
+    $body = str_replace('${name}', "$firstname $lastname", $body);
+    $body = str_replace('${payment}', "$payment kr", $body);
+    $body = str_replace('${bank_number}', LSTR['pages']['dankon_pro_aligho']['bank_number'], $body);
+    $body = str_replace('${firstname}', $firstname, $body);
+    $body = str_replace('${lastname}', $lastname, $body);
+    $body = str_replace('${birthday}', $birthday, $body);
+    $body = str_replace('${address}', $address, $body);
+    $body = str_replace('${email}', $email, $body);
+    $body = str_replace('${phone}', $phone, $body);
+    $body = str_replace('${uea-tejo}', $individual ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $body);
+
+    $altBody = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '.txt');
+    $altBody = str_replace('${name}', "$firstname $lastname", $altBody);
+    $altBody = str_replace('${payment}', "$payment kr", $altBody);
+    $altBody = str_replace('${bank_number}', LSTR['pages']['dankon_pro_aligho']['bank_number'], $altBody);
+    $altBody = str_replace('${firstname}', $firstname, $altBody);
+    $altBody = str_replace('${lastname}', $lastname, $altBody);
+    $altBody = str_replace('${birthday}', $birthday, $altBody);
+    $altBody = str_replace('${address}', $address, $altBody);
+    $altBody = str_replace('${email}', $email, $altBody);
+    $altBody = str_replace('${phone}', $phone, $altBody);
+    $altBody = str_replace('${uea-tejo}', $individual ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $altBody);
 
     $mail->setFrom('dejo@dejo.dk', 'DEJO');
-    $mail->addAddress($_POST['email'], "$firstname $lastname");
+    $mail->addAddress($email, "$firstname $lastname");
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Subject = LSTR['pages']['dankon_pro_aligho']['subject'];
-    $mail->Body = '<b>Test!</b>';
-    $mail->AltBody = '*Test!*';
+    $mail->Body = $body;
+    $mail->AltBody = $altBody;
 
     if (!$mail->send()) {
         error_log($e->ErrorInfo);
