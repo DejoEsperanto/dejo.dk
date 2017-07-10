@@ -17,7 +17,6 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+?>
 
-    $data = [
-        'titleBox' => true
-    ];
+<link rel="stylesheet" href="/css/okazajhoj.css">
