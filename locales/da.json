@@ -18,7 +18,12 @@
                 "message": "Din besked",
                 "submit": "Send"
             },
-            "required": "Obligatoriske"
+            "required": "Obligatoriske",
+            "text": [
+                "Det glæder os, at du vil i kontakt med os! Du kan kontakte os ved brug af formularen ved siden af for at sende os en e-mail, eller du kan selv sende os en til adressen $1.",
+                "Hvis du bare vil blive medlem så skal du bruge $2en anden formular her$3.",
+                "Vi foretrækker at al kontakt går igennem vores e-mail-adresse for hele foreningen, men hvis det er nødvendigt, kan du kontakten for&shy;personen direkte med de neden&shy;stående kontakt&shy;oplys&shy;ninger."
+            ]
         },
         "okazajhoj": {
             "title": "Begivenheder"
