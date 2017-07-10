@@ -21,9 +21,9 @@
 
 <div class="flex-col-2 flex-col-reverse">
      <div>
-          <p id="alighiText" class="p">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus enim et quam pharetra, non sodales odio congue. Vestibulum laoreet elit quis nisl imperdiet, et elementum leo consequat. Nam mauris magna, ultrices eget placerat id, aliquam non nisi. Sed fermentum elementum metus, ut porttitor augue sodales sed. Integer venenatis felis nisi, aliquet consequat mauris sagittis in. Cras congue, diam nec commodo faucibus, augue mauris malesuada felis, non imperdiet arcu odio eu libero. Nulla maximus tincidunt tortor vitae malesuada. Proin nec aliquet dui. Donec fringilla dapibus lectus ac placerat. Nulla nunc justo, interdum sed condimentum at, tempor quis est. Aenean aliquam augue gravida lorem bibendum, consectetur pretium justo posuere.
-          </p>
+          <div id="alighiText">
+               <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['alighi']['text'])?></p>
+          </div>
      </div>
      <div>
           <form method="post" action="/dankon_pro_aligho">

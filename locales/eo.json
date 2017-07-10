@@ -277,7 +277,16 @@
                 "Zambio",
                 "Zimbabvo"
             ],
-            "default_country": "Danio"
+            "default_country": "Danio",
+            "text": [
+                "Kostas 100 kr jare aliĝi al DEJO (Dana Esperantista Junulara Organizo). Je aliĝo al DEJO, vi ankaŭ aŭtomate aliĝos al nia landa asocio <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Membroj de DEA poŝte kvarfoje jare ricevas nian revuon “Esperanto en Danio”.",
+                "Ĉiuj membroj de DEA sub 30 jaroj ankaŭ estas membroj de DEJO.",
+                "DEA estas oficiala landa organizo kadre de <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a> kaj DEJO estas oficiala landa junulara organizo kadre de <a href=\"http://tejo.org\">TEJO (Tutmonda Esperantista Junulara Organizo)</a>.",
+                "Ĉiuj membroj de UEA sub 35 jaroj ankaŭ estas membroj de TEJO.",
+                "Je aliĝo al DEJO eblas ankaŭ aliĝi al UEA kaj TEJO samptempe. Je plia pago de 190 kr jare &mdash;t.e. 290 kr jare sume&mdash;vi ankaŭ estos <i>individua membro</i> de UEA kaj TEJO. Tiaj membroj rete povas legi la revuon <a href=\"http://uea.org/revuoj/esperanto\">“Esperanto”</a> de UEA kaj dumonate poŝte ricevas la revuon <a href=\"http://kontakto.tejo.org\">“Kontakto”</a> de TEJO.",
+                "Plie, individuaj membroj de UEA/TEJO ricevas rabaton je aliĝo al iliaj internaciaj kongresoj, <a href=\"http://www.uea.org/kongresoj\">UK (Universala Kongreso)</a> kaj <a href=\"http://tejo.org/agado/internacia-junulara-kongreso/\">IJK (Internacia Junulara Kongreso)</a>.",
+                "Post aliĝo, ni petas al vi sendi la membrokotizon al nia bankkonto: reg.: 1551, konto.: 8057370."
+            ]
         }
     },
     "header": {
