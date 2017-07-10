@@ -18,13 +18,18 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    const zipcodeInput = $('[name=zipcode]'),
-          cityInput    = $('#city'),
-          countryInput = $('[name=country]');
+    const zipcodeInput = $('#form_zipcode'),
+          cityInput    = $('#form_city'),
+          countryInput = $('#form_country');
 
-    zipcodeInput.addEventListener('input', () => {
+    const updateCity = function() {
+        if (countryInput.value !== defaultCountry) {
+            cityInput.value = '';
+            return;
+        }
+
         const zip = zipcodeInput.value;
-        let city = 'UKENDT';
+        let city = '';
 
         if (zip >= 1000 && zip <= 1999) {
             if (zip <= 1499) {
@@ -39,5 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         cityInput.value = city;
-    });
+    }
+
+    zipcodeInput.addEventListener('input', updateCity);
+    countryInput.addEventListener('change', updateCity);
 });

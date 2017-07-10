@@ -29,53 +29,53 @@
           <form method="post" action="/dankon_pro_aligho">
                <div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['firstname']?>*</label>
-                         <input name="firstname" tabindex="1" required>
+                         <label for="form_firstname"><?=LSTR['pages']['alighi']['form']['firstname']?>*</label>
+                         <input name="firstname" id="form_firstname" tabindex="1" required>
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['birthday']?>*</label>
+                         <label for="form_birthday"><?=LSTR['pages']['alighi']['form']['birthday']?>*</label>
                          <?php
                               $max = new DateTime();
                               $min = new DateTime();
                               $min->modify('-30 years');
                          ?>
-                         <input name="birthday" tabindex="3" type="date" max="<?=$max->format('Y-m-d')?>" min="<?=$min->format('Y') + 1?>-01-01" required>
+                         <input name="birthday" id="form_birthday" tabindex="3" type="date" max="<?=$max->format('Y-m-d')?>" min="<?=$min->format('Y') + 1?>-01-01" required>
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['address']?></label>
-                         <input name="address" tabindex="4">
+                         <label for="form_address"><?=LSTR['pages']['alighi']['form']['address']?></label>
+                         <input name="address" id="form_address" tabindex="4">
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['zipcode']?></label>
-                         <input type="number" tabindex="6" step="1" min="0" max="9999" name="zipcode">
+                         <label for="form_zipcode"><?=LSTR['pages']['alighi']['form']['zipcode']?></label>
+                         <input type="number" id="form_zipcode" tabindex="6" step="1" min="0" max="9999" name="zipcode">
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['email']?>*</label>
-                         <input name="email" tabindex="7" type="email" required>
+                         <label for="form_email"><?=LSTR['pages']['alighi']['form']['email']?>*</label>
+                         <input name="email" id="form_email" tabindex="8" type="email" required>
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['phone']?></label>
-                         <input name="phone" tabindex="8" type="tel">
+                         <label for="form_phone"><?=LSTR['pages']['alighi']['form']['phone']?></label>
+                         <input name="phone" id="form_phone" tabindex="9" type="tel">
                     </div>
                     <div class="checkbox">
-                         <input name="individual" tabindex="9" type="checkbox">
-                         <label><?=LSTR['pages']['alighi']['form']['individual']?></label>
+                         <input name="individual" id="form_individual" tabindex="10" type="checkbox">
+                         <label for="form_individual"><?=LSTR['pages']['alighi']['form']['individual']?></label>
                     </div>
                </div>
                <div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['lastname']?></label>
-                         <input name="lastname" tabindex="2">
+                         <label for="form_lastname"><?=LSTR['pages']['alighi']['form']['lastname']?></label>
+                         <input name="lastname" id="form_lastname" tabindex="2">
                     </div>
                     <div></div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['country']?>*</label>
-                         <select name="country" tabindex="5" required>
+                         <label for="form_country"><?=LSTR['pages']['alighi']['form']['country']?>*</label>
+                         <select name="country" id="form_country" tabindex="5" required>
                               <?php
-                                   $default_country = LSTR['pages']['alighi']['default_country'];
+                                   $defaultCountry = LSTR['pages']['alighi']['default_country'];
                                    foreach (LSTR['pages']['alighi']['countries'] as $country) {
                                         echo "<option value=\"$country\"";
-                                        if ($country === $default_country) {
+                                        if ($country === $defaultCountry) {
                                              echo ' selected';
                                         }
                                         echo ">$country</option>";
@@ -84,8 +84,8 @@
                          </select>
                     </div>
                     <div>
-                         <label><?=LSTR['pages']['alighi']['form']['city']?></label>
-                         <input id="city" disabled>
+                         <label form="form_city"><?=LSTR['pages']['alighi']['form']['city']?></label>
+                         <input id="form_city" tabindex="7">
                     </div>
                     <div></div>
                     <div></div>
@@ -100,5 +100,6 @@
      </div>
 </div>
 
+<script>var defaultCountry = <?=json_encode($defaultCountry)?>;</script>
 <script src="/js/zipcodes.js"></script>
 <script src="/js/alighi.js"></script>
