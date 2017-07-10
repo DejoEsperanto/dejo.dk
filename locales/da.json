@@ -16,7 +16,8 @@
                 "email": "Din e-mail-adresse",
                 "message": "Din besked",
                 "submit": "Send"
-            }
+            },
+            "required": "Obligatoriske"
         },
         "okazajhoj": {
             "title": "Begivenheder"
@@ -306,7 +307,8 @@
         }
     },
     "header": {
-        "logo_alt": "DEJOs logo"
+        "logo_alt": "DEJOs logo",
+        "logo_title": "Til forsiden"
     },
     "footer": {
         "logo_alt": "DEJOs logo",

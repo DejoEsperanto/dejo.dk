@@ -55,7 +55,7 @@
             </div>
             <nav>
                 <div>
-                    <a href="/"><img src="/img/logo.svg" alt="<?=LSTR['header']['logo_alt']?>"></a>
+                    <a href="/"><img src="/img/logo.svg" alt="<?=LSTR['header']['logo_alt']?>" title="<?=LSTR['header']['logo_title']?>"></a>
                     <div id="menu">
                         <ul>
                             <?php

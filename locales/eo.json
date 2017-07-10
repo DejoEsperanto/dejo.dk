@@ -16,7 +16,8 @@
                 "email": "Via retpoŝtadreso",
                 "message": "Via mesaĝo",
                 "submit": "Sendi"
-            }
+            },
+            "required": "Devigataj"
         },
         "okazajhoj": {
             "title": "Okazaĵoj"
@@ -306,7 +307,8 @@
         }
     },
     "header": {
-        "logo_alt": "Logo de DEJO"
+        "logo_alt": "Logo de DEJO",
+        "logo_title": "Al la ĉefpaĝo"
     },
     "footer": {
         "logo_alt": "Logo de DEJO",
