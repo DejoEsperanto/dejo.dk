@@ -14,6 +14,7 @@
             "form": {
                 "name": "Dit navn",
                 "email": "Din e-mail-adresse",
+                "subject": "Emne",
                 "message": "Din besked",
                 "submit": "Send"
             },

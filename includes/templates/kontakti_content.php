@@ -28,17 +28,33 @@
      <div>
           <form method="post" action="/dankon_pro_kontakto">
                <div>
-                    
+                    <div>
+                         <label><?=LSTR['pages']['kontakti']['form']['name']?>*</label>
+                         <input maxlength="100">
+                    </div>
+                    <div>
+                         <label><?=LSTR['pages']['kontakti']['form']['email']?>*</label>
+                         <input maxlength="100">
+                    </div>
                </div>
                <div>
-                    
+                    <div>
+                         <label><?=LSTR['pages']['kontakti']['form']['subject']?>*</label>
+                         <input maxlength="200">
+                    </div>
+                    <div>
+                         <label><?=LSTR['pages']['kontakti']['form']['message']?>*</label>
+                         <textarea maxlength="4000"></textarea>
+                    </div>
+                    <div>
+                         <div class="g-recaptcha" data-sitekey="6LczlSgUAAAAAHdaXdWPN2aFrWDAmaneGHEaGb2v"></div>
+                    </div>
+                    <div>
+                         <input type="submit" value="<?=LSTR['pages']['kontakti']['form']['submit']?>">
+                    </div>
                </div>
           </form>
 
-          <p>* <?=LSTR['pages']['alighi']['required']?></p>
+          <p>* <?=LSTR['pages']['kontakti']['required']?></p>
      </div>
 </div>
-
-<script>var defaultCountry = <?=json_encode($defaultCountry)?>;</script>
-<script src="/js/zipcodes.js"></script>
-<script src="/js/alighi.js"></script>
