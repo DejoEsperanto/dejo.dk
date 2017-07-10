@@ -30,29 +30,33 @@
         die();
     }
 
-    require_once __DIR__ . '/../libraries/PHPMailer/class.phpmailer.php';
+    require_once __DIR__ . '/../libraries/PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer(true);
     $mail->IsSMTP();
 
     try {
-        $mail->Host = SMTP['host'];
-        $mail->SMTPAuth = SMTP['auth'];
-        $mail->Username = SMTP['username'];
-        $mail->Password = SMTP['password'];
-        $mail->SMTPSecure = SMTP['secure'];
-        $mail->Port = SMTP['port'];
+        $mail->Host = SMTPCredentials['host'];
+        $mail->SMTPAuth = SMTPCredentials['auth'];
+        $mail->Username = SMTPCredentials['username'];
+        $mail->Password = SMTPCredentials['password'];
+        $mail->SMTPSecure = SMTPCredentials['secure'];
+        $mail->Port = SMTPCredentials['port'];
     } catch (phpmailerException $e) {
         error_log($e);
         die('Io rompis'); // TODO: Handle this properly
     }
 
+    $firstname = $_POST['firstname'];
+    $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+
     $mail->setFrom('dejo@dejo.dk', 'DEJO');
-    $mail->addAddress($_POST['email'], $_POST['firstname'] . ' ' . $_POST['latname'] ?: '');
+    $mail->addAddress($_POST['email'], "$firstname $lastname");
     $mail->isHTML(true);
+    $mail->CharSet = 'UTF-8';
     $mail->Subject = LSTR['pages']['dankon_pro_aligho']['subject'];
     $mail->Body = '<b>Test!</b>';
-    $mail->Body = '*Test!*';
+    $mail->AltBody = '*Test!*';
 
     if (!$mail->send()) {
         error_log($e->ErrorInfo);

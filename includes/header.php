@@ -20,7 +20,7 @@
     
     require 'passwords.php';
     /*
-     define('SMTP', [
+     define('SMTPCredentials', [
           'host' => '',
           'port' => '',
           'auth' => true,
