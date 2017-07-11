@@ -17,7 +17,19 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+?>
 
-    $data = [
-        'titleBox' => false
-    ];
+<h1><?=LSTR['pages']['pri']['kio_estas_esperanto']['title']?></h1>
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kio_estas_esperanto']['text'])?></p>
+
+<h1><?=LSTR['pages']['pri']['nia_rolo']['title']?></h1>
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['nia_rolo']['text'])?></p>
+
+<h1><?=LSTR['pages']['pri']['kiel_lerni']['title']?></h1>
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['text'])?></p>
+
+<h1><?=LSTR['pages']['pri']['kial_alighi']['title']?></h1>
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kial_alighi']['text'])?></p>
+
+<h1><?=LSTR['pages']['pri']['kiel_uzi']['title']?></h1>
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_uzi']['text'])?></p>

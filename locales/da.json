@@ -7,7 +7,37 @@
             "title": "Nyheder"
         },
         "pri": {
-            "title": "Om os"
+            "title": "Om os",
+            "kio_estas_esperanto": {
+                "title": "Hvad er esperanto?",
+                "text": [
+
+                ]
+            },
+            "nia_rolo": {
+                "title": "Hvad laver DEJO?",
+                "text": [
+                    
+                ]
+            },
+            "kiel_lerni": {
+                "title": "Hvordan kan jeg lære esperanto?",
+                "text": [
+                    
+                ]
+            },
+            "kial_alighi": {
+                "title": "Hvorfor bør jeg blive medlem?",
+                "text": [
+                    
+                ]
+            },
+            "kiel_uzi": {
+                "title": "Hvordan kan jeg bruge esperanto?",
+                "text": [
+                    
+                ]
+            }
         },
         "kontakti": {
             "title": "Kontakt",

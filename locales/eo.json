@@ -7,7 +7,37 @@
             "title": "Novaĵoj"
         },
         "pri": {
-            "title": "Pri ni"
+            "title": "Pri ni",
+            "kio_estas_esperanto": {
+                "title": "Kio estas esperanto?",
+                "text": [
+
+                ]
+            },
+            "nia_rolo": {
+                "title": "Kion faras DEJO?",
+                "text": [
+                    
+                ]
+            },
+            "kiel_lerni": {
+                "title": "Kiel mi povas eklerni esperanton?",
+                "text": [
+                    
+                ]
+            },
+            "kial_alighi": {
+                "title": "Kial mi aliĝu?",
+                "text": [
+                    
+                ]
+            },
+            "kiel_uzi": {
+                "title": "Kiel mi povas uzi esperanton?",
+                "text": [
+                    
+                ]
+            }
         },
         "kontakti": {
             "title": "Kontakti",

@@ -19,5 +19,6 @@
      */
 
     $data = [
-        'titleBox' => false
+        'titleBox' => true,
+        'breadcrumb' => []
     ];
