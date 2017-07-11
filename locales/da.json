@@ -8,22 +8,28 @@
         },
         "pri": {
             "title": "Om os",
+            "picture": "Copenhagen Congress Centre under Universala Kongreso 2011 i København.",
             "kio_estas_esperanto": {
                 "title": "Hvad er esperanto?",
                 "text": [
-
+                    "Esperanto er et internationalt sprog, som har som formål at virke som et <i>lingua franca</i>, dvs. som en tilføjelse til eksisterende sprog. Personer fra forskellige folkeslag, forskellige sprog og forskellige kulturelle baggrunde kan nemt kommunikere sammen på esperanto. Fordellen ved esperanto sammenlignet med andre sprog, der også fungerer som et lingua franca, er, at esperanto bygger på et neutralt og ligeværdigt grundlag.",
+                    "Sproget esperanto blev skabt af den polske øgenlæge Ludwik L. Zamenhof i 1887 i et forsøg på at forsimple international kommunikation. Sproget har en meget simpel struktur, som gør ellers komplicerede koncepter nemme at viderekommunikere. Alle ord er enten konstrueret af eksisterende ord, sådan at man kan forstå meningen af ordet uden nogensinde at have set det før, bare man kender det andet ord, eller så bruger det ord, som er brugt i mange a verdens forskellige sprog, sådan at så mange forskellige mennersker som muligt kan forstå det.",
+                    "Af samme årsag kan man lære esperanto og blive flydende i det på, i gennemsnit, blot 150 timer. Dette betyder dog ikke at esperanto er et forsimplet sprog, som ikke kan anvendes til komplicerede konstruktioner som poesi og lyrik; der findes utroligt mange originale værker på esperanto. Sproget er også yderst velegnet til oversættelse, da man kan bibeholde mange af originalsprogets finesser og formuleringer uden at gå på kompromis med forståelsen.",
+                    "Det er svært at sige, hvor mange mennesker, der kan esperanto, men mange anslår, at der er cirka 2 millioner på verdensplan."
                 ]
             },
             "nia_rolo": {
                 "title": "Hvad laver DEJO?",
                 "text": [
-                    
+                    "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esperanto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esperanto blandt personer yngre end 30 år.",
+                    "Både DEJO og DEA hører til under to internationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
+                    "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark."
                 ]
             },
             "kiel_lerni": {
                 "title": "Hvordan kan jeg lære esperanto?",
                 "text": [
-                    
+                    "DEA organiserer i samarbejde med DEJO fysiske kurser i esperanto, når der er efterspørgsel efter det. Hvert år foregår der et kursus under Roskilde Festival, hvor mange unge esperanto-talende danskere, såvel som udlændinge, mødes og tilbringer festivalen sammen. <a href=\"http://roskildefestivalo.dk/\">Du kan læse mere om det initiativ her</a>."
                 ]
             },
             "kial_alighi": {
@@ -359,5 +365,6 @@
         "copyright": "&copy; Dansk Esperanto Ungdomsforening 1986&ndash;2017",
         "license_code": "Kildekode tilgængelig under $1GNU General Public License v3$2 eller nyere. $3GitHub$4",
         "license_contents": "Indhold tilgængeligt under licensen <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.da\">Creative Commons Kreditering-DelPåSammeVilkår 4.0 International Licens</a> medmindre andet er sagt"
-    }
+    },
+    "photo": "Foto"
 }

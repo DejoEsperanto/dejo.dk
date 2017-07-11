@@ -17,6 +17,8 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+    
+    echo headerPhoto('pri', 'uk_2011.jpg');
 ?>
 
 <h1><?=LSTR['pages']['pri']['kio_estas_esperanto']['title']?></h1>
