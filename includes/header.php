@@ -97,6 +97,6 @@
 
         return '<div class="headerPhoto">' .
                    '<img src="/img/' . $picture . '">' .
-                   '<span>' . LSTR['pages'][$page]['picture'] . '<br>(' . LSTR['photo'] . ': ' . file_get_contents(__DIR__ . '/../img/' . $matches[1] . '.permesilo') . ')' . '</span>' .
+                   '<span>' . LSTR['pages'][$page]['picture'] . '<br>(' . LSTR['photo'] . ': ' . trim(file_get_contents(__DIR__ . '/../img/' . $matches[1] . '.permesilo')) . ')' . '</span>' .
                 '</div>';
 }
