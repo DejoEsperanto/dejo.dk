@@ -19,7 +19,8 @@
      */
 
     $data = [
-        'titleBox' => true
+        'titleBox' => true,
+        'breadCrumb' => ['alighi']
     ];
 
     if (!isset($_POST['firstname'])           ||

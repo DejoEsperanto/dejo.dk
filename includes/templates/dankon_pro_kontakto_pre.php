@@ -19,7 +19,8 @@
      */
 
     $data = [
-        'titleBox' => true
+        'titleBox' => true,
+        'breadcrumb' => ['kontakti']
     ];
 
     if (!isset($_POST['name'])                  ||

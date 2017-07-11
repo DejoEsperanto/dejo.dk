@@ -135,11 +135,28 @@ nav {
     height: 128px;
 
     &>div {
+        display: flex;
+        justify-content: space-between;
         font-family: @font-title;
-        font-size: 36px;
         display: flex;
         align-items: center;
-        font-weight: 300;
+
+        &>div:first-child {
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        &>div:last-child {
+            font-size: 20px;
+
+            & a {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
 

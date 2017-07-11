@@ -43,6 +43,14 @@
         '/dankon_pro_aligho'   => ['dankon_pro_aligho',   false],
         '/dankon_pro_kontakto' => ['dankon_pro_kontakto', false]
     ]);
+
+    // Define inverse array
+    $inverse = [];
+    foreach (PAGES as $url => $page) {
+        $inverse[$page[0]] = array_merge([$url], array_slice($page, 1));
+    }
+    define('PAGES_INVERSE', $inverse);
+
     define('LOCALES', ['da' => 'Dansk', 'eo' => 'Esperanto']);
 
     if (array_key_exists($_COOKIE['lang'], LOCALES)) {
