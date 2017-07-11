@@ -19,7 +19,7 @@
      */
 ?>
 
-<div class="flex-col-2 flex-col-reverse">
+<div id="main" class="flex-col-2 flex-col-reverse">
      <div>
           <div id="alighiText">
                <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['alighi']['text'])?></p>

@@ -24,16 +24,29 @@ body {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     margin-bottom: 32px;
 
     &>div:first-child {
-        display: flex;
+        width: 100%;
 
-        &>div:first-child {
-            margin-right: 32px;
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (min-width: 895px) {
+            &>div:first-child {
+                margin-right: 32px;
+            }
         }
 
         &>div {
+            @media (max-width: 895px) {
+                width: 100%;
+            }
+
             width: 250px;
             height: 80px;
         }
@@ -51,6 +64,14 @@ form {
         font-size: 18px;
         padding: 0 5px;
         box-sizing: border-box;
+    }
+
+    &>div:last-child {
+        width: 532px;
+
+        @media (max-width: 895px) {
+            width: 100%;
+        }
     }
 
     &>div:last-child>div:first-child {
@@ -74,7 +95,6 @@ form {
     }
 
     & textarea {
-        width: 532px;
         box-sizing: border-box;
         height: 500px;
         font-family: @font-text;
@@ -84,6 +104,7 @@ form {
 
 #kontaktiText {
     min-width: 300px;
+    margin-bottom: 32px;
 
     & li:not(:last-child) {
         margin-bottom: 8px;
