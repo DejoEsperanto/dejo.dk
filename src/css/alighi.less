@@ -42,6 +42,12 @@ form {
             width: 250px;
         }
 
+        &:not(#final)>:nth-child(2) {
+            @media (min-width: 969px) {
+                margin-left: 32px;
+            }
+        }
+
         &>div {
             height: 80px;
 
@@ -53,13 +59,6 @@ form {
 
             @media (max-width: 968px) {
                 width: 100%;
-            }
-
-
-            &:nth-child(2) {
-                @media (min-width: 969px) {
-                    margin-left: 32px;
-                }
             }
 
             &>label {
@@ -101,6 +100,7 @@ form {
     &>div:last-child {
         display: flex;
         justify-content: center;
+        margin-left: -10px;
     }
 }
 
