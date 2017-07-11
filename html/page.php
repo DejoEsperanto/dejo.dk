@@ -127,6 +127,6 @@
                 </div>
             </div>
         </footer>
-        <script src="/js/main.js<?=VERSION?>"></script>
+        <script src="/js/main.js?<?=VERSION?>"></script>
     </body>
 </html>

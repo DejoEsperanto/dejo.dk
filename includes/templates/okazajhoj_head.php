@@ -19,4 +19,4 @@
      */
 ?>
 
-<link rel="stylesheet" href="/css/okazajhoj.css<?=VERSION?>">
+<link rel="stylesheet" href="/css/okazajhoj.css?<?=VERSION?>">
