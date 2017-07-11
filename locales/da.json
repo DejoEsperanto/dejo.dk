@@ -15,6 +15,7 @@
                     "Esperanto er et inter&shy;natio&shy;nalt sprog, som har som formål at virke som et <i>lingua franca</i>, dvs. som en tilføjelse til eksiste&shy;rende sprog. Personer fra forskel&shy;lige folke&shy;slag, forskel&shy;lige sprog og forskel&shy;lige kultu&shy;relle bag&shy;grunde kan nemt kom&shy;munikere sam&shy;men på esperanto. Fordellen ved esperanto sam&shy;men&shy;lignet med andre sprog, der også fungerer som et lingua franca, er, at esperanto bygger på et neutralt og lige&shy;værdigt grundlag.",
                     "Sproget esperanto blev skabt af den polske øgenlæge Ludwik L. Zamenhof i 1887 i et forsøg på at forsimple international kom&shy;muni&shy;kation. Sproget har en meget simpel struktur, som gør ellers komplicerede koncepter nemme at videre&shy;kom&shy;muni&shy;kere. Alle ord er enten konstru&shy;erede af eksisterende ord, sådan at man kan forstå meningen af ordet uden nogensinde at have set det før, bare man kender det andet ord, eller så bruger det ord, som er brugt i mange a verdens forskellige sprog, sådan at så mange forskellige mennersker som muligt kan forstå det.",
                     "Af samme årsag kan man lære esperanto og blive flydende i det på, i gennemsnit, blot 150 timer. Dette betyder dog ikke at esperanto er et forsimplet sprog, som ikke kan anvendes til komplicerede konstruk&shy;tioner som poesi og lyrik; der findes utroligt mange originale værker på esperanto. Sproget er også yderst velegnet til oversæt&shy;telse, da man kan bibeholde mange af originalsprogets finesser og formu&shy;leringer uden at gå på kompromis med forståelsen.",
+                    "Esperanto hjælper også med den generelle sprogforståelse, hvilket betyder at esperanto&shy;talende har nemmere ved senere at lære andre sprog, da man gennem sprogets regulære og logiske opbygning opnår en højere grad af forståelse for opbygningen af sprog generelt.",
                     "Det er svært at sige, hvor mange mennesker, der kan esperanto, men mange anslår, at der er cirka 2 mil&shy;lioner på verdensplan.",
                     "Du kan læse <a href=\"https://lernu.net/da/esperanto\">mere om esperanto her</a>, og <a href=\"https://zamenhof.life/da/\">om Zamenhof her</a>."
                 ],
@@ -51,13 +52,23 @@
             "kial_alighi": {
                 "title": "Hvorfor bør jeg blive medlem?",
                 "text": [
-                    
+                    "Som medlem af DEJO har du en masse fordele, nogle af hvilke er nævnt på <a href=\"/alighi\">tilmeldingssiden</a>. Du kan få indflydelse på esperanto-bevægelsens aktiviteter i Danmark, både i ungdomsafdelingen og gennem vores moderorganisation, DEA. Du kan også finde samtalepartnere, der hjælper dig med at videreudvikle dine sproglige kompetencer, og som kan føre til nye venskaber!",
+                    "Så hvis du interesserer dig for esperanto og er under 30 år <a href=\"/alighi\">bør du blive medlem af DEJO i dag</a>!"
                 ]
             },
             "kiel_uzi": {
                 "title": "Hvordan kan jeg bruge esperanto?",
                 "text": [
-                    
+                    "Der findes mange muligheder for at anvende esperanto, både i hverdagen og til <a href=\"/okazajhoj\">specielle begivenheder</a>."
+                ],
+                "list": [
+                    "Der er rigtigt mange esperantister på Twitter. Mange af dem kan findes under hashtagget <a href=\"https://twitter.com/search?q=%23Esperanto\">#Esperanto</a>.",
+                    "Der findes mange YouTubere, der taler på esperanto. En af de mere kendte er <a href=\"https://www.youtube.com/user/Evildela\">Evildea</a>.",
+                    "Der findes mange podcasts og radiostationer på esperanto. <a href=\"http://esperanto.net/eo/elsendoj-en-esperanto/\">Her er der en oversigt over nogle af dem</a>.",
+                    "Der er mange bøger på esperanto. <a href=\"http://esperanto.net/eo/libroj-en-esperanto/\">Her er nogle forslag</a>.",
+                    "Der findes aviser på esperanto. De to nok mest kendte er <a href=\"http://www.liberafolio.org/\">Libera Folio</a> og <a href=\"http://www.espero.com.cn/\">El Popola Ĉinio</a>.",
+                    "Hvert år afholder UEA og TEJO deres internationale kongresser <a href=\"http://www.uea.org/kongresoj\">UK (Universala Kongreso)</a> og <a href=\"http://tejo.org/agado/internacia-junulara-kongreso/\">IJK (Internacia Junulara Kongreso)</a>, hvor der er kurser i esperanto, og hvor man kan møde andre esperantister fra hele verden.",
+                    "Der findes <a href=\"https://eo.wikipedia.org\">en version af Wikipedia på esperanto</a>."
                 ]
             }
         },
@@ -346,7 +357,7 @@
             "text": [
                 "Det koster 100 kr om året at være medlem af DEJO (Dana Esperantista Junulara Orga&shy;nizo). Ved tilmelding til DEJO bliver du også automatisk medlem af vores moder&shy;orga&shy;ni&shy;sation <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Medlemmer af DEA modtager fire gange om året vores blad “Esperanto en Danio” med posten.",
                 "Alle medlemmer af DEA under 30 år er også medlemmer af DEJO.",
-                "DEA er en officiel lands&shy;dækkende organi&shy;sation under <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a> og DEJO er en officiel lands&shy;dæk&shy;kende ungdoms&shy;organi&shy;sation under <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperantista Junul&shy;ara Organizo)</a>.",
+                "DEA er en officiel lands&shy;dækkende organi&shy;sation under <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a> og DEJO er en officiel lands&shy;dæk&shy;kende ungdoms&shy;organi&shy;sation under <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperantista Junul&shy;ara Orga&shy;nizo)</a>.",
                 "Alle medlemmer af UEA under 35 år er også medlemmer af TEJO.",
                 "Ved tilmelding til DEJO er det også muligt at blive medlem af UEA og TEJO samtidigt. Ved en ekstra betaling på 190 kr om året&mdash;dvs. 290 kr om året i alt&mdash;bliver du også <i>individuelt medlem</i> hos UEA og TEJO. Som individuelt medlem kan du læse magasinet <a href=\"http://uea.org/revuoj/esperanto\">“Esperanto”</a> af UEA online og modtager magasinet <a href=\"http://kontakto.tejo.org\">“Kontakto”</a> af TEJO med posten hver anden måned.",
                 "Endvidere modtager individuelle med&shy;lem&shy;mer af UEA/TEJO rabat ved tilmelding til deres interna&shy;tionale kongresser, <a href=\"http://www.uea.org/kongresoj\">UK (Univer&shy;sala Kon&shy;greso)</a> og <a href=\"http://tejo.org/agado/internacia-junulara-kongreso/\">IJK (Internacia Junulara Kongreso)</a>.",

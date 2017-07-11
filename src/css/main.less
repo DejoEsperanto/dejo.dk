@@ -242,11 +242,11 @@ a {
     }
 }
 
-p, li.li {
+p, li.li, .p {
     font-family: @font-text;
 }
 
-p.p {
+.p {
     text-align: justify;
     line-height: 120%;
     font-size: 110%;
@@ -321,5 +321,22 @@ main>div {
 
     &>* {
         float: none;
+    }
+}
+
+ul.ul {
+    margin-top: 32px;
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 40px;
+
+    .p;
+
+    &>li:not(.last-child) {
+        margin-top: 8px;
+    }
+
+    &.short {
+        width: 80%;
     }
 }

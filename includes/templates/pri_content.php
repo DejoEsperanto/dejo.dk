@@ -59,3 +59,6 @@
 
 <h1><?=LSTR['pages']['pri']['kiel_uzi']['title']?></h1>
 <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_uzi']['text'])?></p>
+<ul class="ul short">
+    <li><?=implode('</li><li>', LSTR['pages']['pri']['kiel_uzi']['list'])?></li>
+</ul>
