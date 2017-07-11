@@ -30,7 +30,7 @@
                <div>
                     <div>
                          <label for="form_firstname"><?=LSTR['pages']['alighi']['form']['firstname']?>*</label>
-                         <input name="firstname" id="form_firstname" tabindex="1" required>
+                         <input name="firstname" id="form_firstname" tabindex="1" maxlength="80" required>
                     </div>
                     <div>
                          <label for="form_birthday"><?=LSTR['pages']['alighi']['form']['birthday']?>*</label>
@@ -43,19 +43,19 @@
                     </div>
                     <div>
                          <label for="form_address"><?=LSTR['pages']['alighi']['form']['address']?></label>
-                         <input name="address" id="form_address" tabindex="4">
+                         <input name="address" id="form_address" tabindex="4" maxlength="200">
                     </div>
                     <div>
                          <label for="form_zipcode"><?=LSTR['pages']['alighi']['form']['zipcode']?></label>
-                         <input type="number" id="form_zipcode" tabindex="6" step="1" min="0" max="9999" name="zipcode">
+                         <input id="form_zipcode" tabindex="6" name="zipcode" maxlength="20">
                     </div>
                     <div>
                          <label for="form_email"><?=LSTR['pages']['alighi']['form']['email']?>*</label>
-                         <input name="email" id="form_email" tabindex="8" type="email" required>
+                         <input name="email" id="form_email" tabindex="8" type="email" maxlength="200" required>
                     </div>
                     <div>
                          <label for="form_phone"><?=LSTR['pages']['alighi']['form']['phone']?></label>
-                         <input name="phone" id="form_phone" tabindex="9" type="tel">
+                         <input name="phone" id="form_phone" tabindex="9" type="tel" maxlength="20">
                     </div>
                     <div class="checkbox">
                          <input name="individual" id="form_individual" tabindex="10" type="checkbox">
@@ -68,12 +68,12 @@
                <div>
                     <div>
                          <label for="form_lastname"><?=LSTR['pages']['alighi']['form']['lastname']?></label>
-                         <input name="lastname" id="form_lastname" tabindex="2">
+                         <input name="lastname" id="form_lastname" tabindex="2" maxlength="80">
                     </div>
                     <div></div>
                     <div>
                          <label for="form_country"><?=LSTR['pages']['alighi']['form']['country']?>*</label>
-                         <select name="country" id="form_country" tabindex="5" required>
+                         <select name="country" id="form_country" tabindex="5" maxlength="30" required>
                               <?php
                                    $defaultCountry = LSTR['pages']['alighi']['default_country'];
                                    foreach (LSTR['pages']['alighi']['countries'] as $country) {
@@ -88,7 +88,7 @@
                     </div>
                     <div>
                          <label form="form_city"><?=LSTR['pages']['alighi']['form']['city']?></label>
-                         <input id="form_city" name="city" tabindex="7">
+                         <input id="form_city" name="city" tabindex="7" maxlength="50">
                     </div>
                     <div></div>
                     <div></div>

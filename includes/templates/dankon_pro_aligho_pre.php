@@ -55,8 +55,8 @@
         showError(500, 'Okazis interna servila eraro');
     }
 
-    $firstname = $_POST['firstname'];
-    $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+    $firstname = substr($_POST['firstname'], 0, 80);
+    $lastname = isset($_POST['lastname']) ? substr($_POST['lastname'], 0, 80) : '';
     try {
         $birthday = DateTime::createFromFormat('Y-m-d', $_POST['birthday']);
     } catch (Exception $e) {
@@ -64,12 +64,12 @@
         die();
     }
     $birthday = $birthday->format('d/m/Y'); // TODO: Make this customizable
-    $address = isset($_POST['address']) ? $_POST['address'] : '';
-    $address .= isset($_POST['zipcode']) ? ', ' . $_POST['zipcode'] : '';
-    $address .= isset($_POST['city']) ? ' ' . $_POST['city'] : '';
-    $address .= isset($_POST['country']) ? ', ' . $_POST['country'] : '';
-    $email = $_POST['email'];
-    $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
+    $address = isset($_POST['address']) ? substr($_POST['address'], 0, 200) : '';
+    $address .= isset($_POST['zipcode']) ? ', ' . substr($_POST['zipcode'], 0, 20) : '';
+    $address .= isset($_POST['city']) ? ' ' . substr($_POST['city'], 0, 50) : '';
+    $address .= isset($_POST['country']) ? ', ' . substr($_POST['country'], 0, 30) : '';
+    $email = substr($_POST['email'], 0, 200);
+    $phone = isset($_POST['phone']) ? substr($_POST['phone'], 0, 20) : '';
     $individual = isset($_POST['individual']) ? (bool)$_POST['individual'] : false;
 
     if ($individual) {

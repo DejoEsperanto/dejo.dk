@@ -55,10 +55,10 @@
         showError(500, 'Okazis interna servila eraro');
     }
 
-    $name    = $_POST['name'];
-    $email   = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $name    = substr($_POST['name'],    0, 100);
+    $email   = substr($_POST['email'],   0, 100);
+    $subject = substr($_POST['subject'], 0, 200);
+    $message = substr($_POST['message'], 0, 4000);
 
     $time = (new DateTime())->format('Y-m-d H:i:s');
 
