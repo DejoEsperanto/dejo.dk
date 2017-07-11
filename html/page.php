@@ -38,6 +38,7 @@
         <meta charset="utf-8">
         <title>DEJO - <?=TITLE?></title>
         <link rel="stylesheet" href="/css/main.css?v=<?=VERSION?>">
+        <link rel="icon" type="image/png" href="/img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <?php require PAGE . '_head.php'; ?>
     </head>
