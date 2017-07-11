@@ -1,0 +1,51 @@
+/*
+ * Copyright (C) 2017 Mia Nordentoft, Anton S. Meiner, dejo.dk contributors
+ *
+ * This file is part of dejo.dk.
+ *
+ * dejo.dk is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * dejo.dk is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#retajIloj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &>div {
+        width: 250px;
+        margin-top: -16px;
+        margin-bottom: 16px;
+        border: 16px solid transparent;
+
+        &>h2 {
+            margin-bottom: 32px;
+        }
+
+        &>div {
+            width: 100%;
+            height: 277px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+
+            & img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#zamenhofStatuoBildo {
+    width: 250px;
+}

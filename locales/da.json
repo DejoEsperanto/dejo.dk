@@ -15,21 +15,37 @@
                     "Esperanto er et internationalt sprog, som har som formål at virke som et <i>lingua franca</i>, dvs. som en tilføjelse til eksisterende sprog. Personer fra forskellige folkeslag, forskellige sprog og forskellige kulturelle baggrunde kan nemt kommunikere sammen på esperanto. Fordellen ved esperanto sammenlignet med andre sprog, der også fungerer som et lingua franca, er, at esperanto bygger på et neutralt og ligeværdigt grundlag.",
                     "Sproget esperanto blev skabt af den polske øgenlæge Ludwik L. Zamenhof i 1887 i et forsøg på at forsimple international kommunikation. Sproget har en meget simpel struktur, som gør ellers komplicerede koncepter nemme at viderekommunikere. Alle ord er enten konstrueret af eksisterende ord, sådan at man kan forstå meningen af ordet uden nogensinde at have set det før, bare man kender det andet ord, eller så bruger det ord, som er brugt i mange a verdens forskellige sprog, sådan at så mange forskellige mennersker som muligt kan forstå det.",
                     "Af samme årsag kan man lære esperanto og blive flydende i det på, i gennemsnit, blot 150 timer. Dette betyder dog ikke at esperanto er et forsimplet sprog, som ikke kan anvendes til komplicerede konstruktioner som poesi og lyrik; der findes utroligt mange originale værker på esperanto. Sproget er også yderst velegnet til oversættelse, da man kan bibeholde mange af originalsprogets finesser og formuleringer uden at gå på kompromis med forståelsen.",
-                    "Det er svært at sige, hvor mange mennesker, der kan esperanto, men mange anslår, at der er cirka 2 millioner på verdensplan."
-                ]
+                    "Det er svært at sige, hvor mange mennesker, der kan esperanto, men mange anslår, at der er cirka 2 millioner på verdensplan.",
+                    "Du kan læse <a href=\"https://lernu.net/da/esperanto\">mere om esperanto her</a>, og <a href=\"https://zamenhof.life/da/\">om Zamenhof her</a>."
+                ],
+                "bildo": "Statue af Zamenhof i Prilep, Make&shy;do&shy;nien."
             },
             "nia_rolo": {
                 "title": "Hvad laver DEJO?",
                 "text": [
                     "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esperanto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esperanto blandt personer yngre end 30 år.",
-                    "Både DEJO og DEA hører til under to internationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
+                    "Både DEJO og DEA hører til under to internationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org/da\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
                     "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark."
                 ]
             },
             "kiel_lerni": {
                 "title": "Hvordan kan jeg lære esperanto?",
                 "text": [
-                    "DEA organiserer i samarbejde med DEJO fysiske kurser i esperanto, når der er efterspørgsel efter det. Hvert år foregår der et kursus under Roskilde Festival, hvor mange unge esperanto-talende danskere, såvel som udlændinge, mødes og tilbringer festivalen sammen. <a href=\"http://roskildefestivalo.dk/\">Du kan læse mere om det initiativ her</a>."
+                    "DEA organiserer i samarbejde med DEJO fysiske kurser i esperanto, når der er efterspørgsel efter det. Hvert år foregår der et kursus under Roskilde Festival, hvor mange unge esperanto-talende danskere, såvel som udlændinge, mødes og tilbringer festivalen sammen. <a href=\"http://roskildefestivalo.dk/\">Du kan læse mere om det initiativ her</a>.",
+                    "Der findes også selvlæringsbøger som f.eks. <i>Esperanto&mdash;Den direkte metode</i> af Stano Marček og Arne Casper-Mortensen, som kan købes igennem DEA. <a href=\"/kontakti\">Kontakt os endelig</a>, hvis du er interesseret i kurser eller bøger; så sætter vi dig i kontakt med de rigtige!",
+                    "Du kan også selv bestille bøger online gennem <a href=\"http://katalogo.uea.org/katalogo.php?titolo=&auxtoro=&katego=&kondicho=chio&trovu=Trovu+en+la+reta+katalogo&eldonisto=&eldloko=&tradukinto=&kontrib=&isbn=&vortoj=&linfo=&lingva=dana&post=&antau=&pli=&malpli=&prezo=&mprezo=\">UEAs libroservo</a>, men det er ofte billigere at bestille gennem os, da vi sender fra København og ikke fra Rotterdam.",
+                    "Derudover findes der også diverse forskellige online kurser:"
+                ],
+                "aliaj_title": "Andre",
+                "duolingo": [
+                    "Duolingo er en gratis, online plat&shy;form til at lære sprog, der bygger på erfa&shy;rings&shy;pæda&shy;go&shy;gik. Man kan lære esperanto på duolingo fra <a href=\"https://www.duolingo.com/course/eo/en/Learn-Esperanto-Online\">engelsk</a> og <a href=\"https://www.duolingo.com/course/eo/es/Learn-Esperanto-Online\">spansk</a>. Et kursus fra portugi&shy;sisk <a href=\"https://incubator.duolingo.com/courses/eo/pt/status\">er på vej</a>."
+                ],
+                "lernu": [
+                    "Lernu er en gratis, online plat&shy;form dedikeret til at lære esperanto. Der findes kurser på mange forskellige sprog&mdash;<a href=\"https://lernu.net/da\">også på dansk</a>."
+                ],
+                "aliaj": [
+                    "Eckhard Bick har i sam&shy;arbejde med DEA skabt <a href=\"http://www.vortaro.dk/\">vortaro.dk</a>, som er en gratis online dansk-esperanto ord&shy;bog. Ordbogen kan også kø&shy;bes i en fysisk udgave gen&shy;nem DEA.",
+                    "Der findes også mange andre muligheder for at lære espe&shy;ranto online. Jonas Dalmose har kompileret en liste over mange af dem <a href=\"http://esperanto.saluton.dk\">på sin hjem&shy;me&shy;side</a>."
                 ]
             },
             "kial_alighi": {

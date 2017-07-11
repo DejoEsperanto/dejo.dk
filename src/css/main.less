@@ -188,10 +188,12 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 36px;
+    margin-top: 64px;
 }
 
 h2 {
     font-size: 32px;
+    margin-top: 48px;
 }
 
 h3 
@@ -219,6 +221,10 @@ p.p {
     line-height: 120%;
     font-size: 110%;
     margin-bottom: 16px;
+}
+
+p.small {
+    font-size: 90%;
 }
 
 i {
@@ -255,7 +261,6 @@ main>div {
 .headerPhoto {
     width: 100%;
     font-family: @font-text;
-    margin-bottom: 64px;
     line-height: 120%;
 
     &>img {
@@ -265,5 +270,28 @@ main>div {
     &>img+span {
         display: block;
         margin-top: 8px;
+    }
+}
+
+.imageWrap {
+    &>.wrapImage {
+        float: right;
+        margin-left: 16px;
+        font-family: @font-text;
+
+        &>span {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 90%;
+            text-align: justify;
+        }
+
+        &>* {
+            width: 100%;
+        }
+    }
+
+    &>* {
+        float: none;
     }
 }

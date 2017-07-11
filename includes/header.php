@@ -92,11 +92,15 @@
         return (bool)($recaptchaResult['success']);
     }
 
-    function headerPhoto ($page, $picture) {
+    function imageCredit ($picture) {
         $license = preg_match('/(.+)\..+/', $picture, $matches);
 
+        return '(' . LSTR['photo'] . ': ' . trim(file_get_contents(__DIR__ . '/../img/' . $matches[1] . '.permesilo')) . ')';
+    }
+
+    function headerPhoto ($page, $picture) {
         return '<div class="headerPhoto">' .
                    '<img src="/img/' . $picture . '">' .
-                   '<span>' . LSTR['pages'][$page]['picture'] . '<br>(' . LSTR['photo'] . ': ' . trim(file_get_contents(__DIR__ . '/../img/' . $matches[1] . '.permesilo')) . ')' . '</span>' .
+                   '<span>' . LSTR['pages'][$page]['picture'] . '<br>' . imageCredit($picture) . '</span>' .
                 '</div>';
 }

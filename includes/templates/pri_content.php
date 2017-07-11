@@ -22,13 +22,37 @@
 ?>
 
 <h1><?=LSTR['pages']['pri']['kio_estas_esperanto']['title']?></h1>
-<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kio_estas_esperanto']['text'])?></p>
+<div class="imageWrap">
+     <div id="zamenhofStatuoBildo" class='wrapImage'>
+          <img src="/img/zamenhof_statuo.jpg">
+          <span><?=LSTR['pages']['pri']['kio_estas_esperanto']['bildo'] . '<br>' . imageCredit('zamenhof_statuo.jpg')?></span>
+     </div>
+     <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kio_estas_esperanto']['text'])?></p>
+</div>
 
 <h1><?=LSTR['pages']['pri']['nia_rolo']['title']?></h1>
 <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['nia_rolo']['text'])?></p>
 
 <h1><?=LSTR['pages']['pri']['kiel_lerni']['title']?></h1>
 <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['text'])?></p>
+<div id="retajIloj">
+     <div>
+          <h2>Duolingo</h2>
+          <div><a href="https://duolingo.com"><img src="/img/duolingo_gufo.png"></a></div>
+          <p class="p small">&copy; duolingo.com</p>
+          <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['duolingo'])?></p>
+     </div>
+     <div>
+          <h2>Lernu</h2>
+          <div><a href="https://lernu.net"><img src="/img/lernu.png"></a></div>
+          <p class="p small">&copy; lernu.net</p>
+          <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['lernu'])?></p>
+     </div>
+     <div>
+          <h2><?=LSTR['pages']['pri']['kiel_lerni']['aliaj_title']?></h2>
+          <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['aliaj'])?></p>
+     </div>
+</div>
 
 <h1><?=LSTR['pages']['pri']['kial_alighi']['title']?></h1>
 <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kial_alighi']['text'])?></p>
