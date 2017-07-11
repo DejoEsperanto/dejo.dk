@@ -19,5 +19,5 @@
      */
 ?>
 
-<link rel="stylesheet" href="/css/kontakti.css">
+<link rel="stylesheet" href="/css/kontakti.css<?=VERSION?>">
 <script src='https://www.google.com/recaptcha/api.js'></script>

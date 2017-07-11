@@ -110,5 +110,5 @@
 </div>
 
 <script>var defaultCountry = <?=json_encode($defaultCountry)?>;</script>
-<script src="/js/zipcodes.js"></script>
-<script src="/js/alighi.js"></script>
+<script src="/js/zipcodes.js<?=VERSION?>"></script>
+<script src="/js/alighi.js<?=VERSION?>"></script>
