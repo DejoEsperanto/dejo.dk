@@ -20,5 +20,6 @@
     
     $data = [
         'titleBox' => true,
-        'breadcrumb' => []
+        'breadcrumb' => [],
+        'description' => 'Planitaj okazaĵoj de DEJO'
     ];

@@ -20,5 +20,6 @@
 
     $data = [
         'titleBox' => true,
-        'breadcrumb' => []
+        'breadcrumb' => [],
+        'description' => 'Aliĝu al la Dana Esperanista Junulara Organizo!'
     ];

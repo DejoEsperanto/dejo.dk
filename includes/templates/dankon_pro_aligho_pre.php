@@ -20,7 +20,8 @@
 
     $data = [
         'titleBox' => true,
-        'breadCrumb' => ['alighi']
+        'breadCrumb' => ['alighi'],
+        'description' => 'Dankon pro via aliĝo al DEJO'
     ];
 
     if (!isset($_POST['firstname'])           ||

@@ -13,6 +13,8 @@
     }
     define('TITLE', LSTR['pages'][$pageDetails[0]]['title']);
     require PAGE . '_pre.php';
+
+    header('Content-Language: ' . LOCALE);
 ?>
 <!doctype html>
 <html>
@@ -35,11 +37,28 @@
              * You should have received a copy of the GNU General Public License
              * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
         -->
-        <meta charset="utf-8">
+        <meta charset="utf-8" lang="<?=LOCALE?>">
         <title>DEJO - <?=TITLE?></title>
         <link rel="stylesheet" href="/css/main.css?v=<?=VERSION?>">
         <link rel="icon" type="image/png" href="/img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://dejo.dk<?=$_SERVER['REQUEST_URI']?>">
+        <meta property="og:site_name" content="Dana Esperantista Junulara Organizo">
+        <meta property="og:title" content="<?=TITLE?>">
+        <meta property="og:description" content="<?=$data['description']?>">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@dejoesperanto">
+        <meta name="twitter:title" content="<?=TITLE?>">
+        <meta name="twitter:description" content="<?=$data['description']?>">
+
+        <meta name="description" content="<?=$data['description']?>">
+        <meta name="keywords" content="esperanto,dejo,dana,esperantista,junulara,organizo,danmark,danio,denmark,international,language,ungdomsforening,ungdom">
+
+        <meta http-equiv="content-language" content="<?=LOCALE?>">
+
         <?php require PAGE . '_head.php'; ?>
     </head>
     <body>

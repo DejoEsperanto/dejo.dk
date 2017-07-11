@@ -20,5 +20,6 @@
 
     $data = [
         'titleBox' => true,
-        'breadcrumb' => []
+        'breadcrumb' => [],
+        'description' => 'Kontakti la Danan Esperanistan Junularan Organizon'
     ];

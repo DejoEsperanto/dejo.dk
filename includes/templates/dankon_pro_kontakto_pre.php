@@ -20,7 +20,8 @@
 
     $data = [
         'titleBox' => true,
-        'breadcrumb' => ['kontakti']
+        'breadcrumb' => ['kontakti'],
+        'description' => 'Dankon pro via enkontaktiĝo'
     ];
 
     if (!isset($_POST['name'])                  ||

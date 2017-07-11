@@ -19,5 +19,6 @@
      */
 
     $data = [
-        'titleBox' => false
+        'titleBox' => false,
+        'description' => 'La retejo de la Dana Esperantista Junulara Organizo'
     ];
