@@ -31,6 +31,14 @@ html {
 body {
     margin: 0 0 @footer-height;
 
+    @media (max-width: @footer-toggle2) {
+        margin: 0 0 @footer-height2;
+    }
+
+    @media (max-width: @footer-toggle3) {
+        margin: 0 0 @footer-height3;
+    }
+
     &>:not(header), &>header>* {
         width: 100%;
 
@@ -173,11 +181,24 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: @footer-height;
     font-family: @font-text;
     background-color: @white;
     padding-top: 48px;
     padding-bottom: 32px;
+
+    height: @footer-height;
+
+    @media (max-width: @footer-toggle2) {
+        height: @footer-height2;
+    }
+
+    @media (max-width: @footer-toggle3) {
+        height: @footer-height3;
+
+        img {
+            display: none;
+        }
+    }
 
     &>div {
         display: flex;
