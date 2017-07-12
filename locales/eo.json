@@ -4,7 +4,8 @@
             "title": "Hejmo"
         },
         "novajhoj": {
-            "title": "Novaĵoj"
+            "title": "Novaĵoj",
+            "unavailable": "Ankoraŭ aperis neniuj novaĵoj."
         },
         "pri": {
             "title": "Pri ni",
@@ -392,6 +393,20 @@
         },
         "statuto": {
             "title": "Statuto"
+        },
+
+
+        "404": {
+            "title": "404 Paĝo ne troviĝis",
+            "hove": [
+                "Ho ve",
+                "Je la sankta Zamenhofo!",
+                "Aktoj de la akademio!",
+                "Mil papoj el Romo!",
+                "Fundamenta Krestomatio!",
+                "Malmalaĉe"
+            ],
+            "msg": "Ŝajne tiu paĝo ne ekzistas. Ĉu vi mistajpis la retadreson? Se vi sekvis ligilon de ĉi tiu retejo, bonvolu <a href=\"/kontakti\">kontakti nin</a> por ke ni povu ripari tion."
         }
     },
     "header": {

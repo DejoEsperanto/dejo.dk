@@ -17,11 +17,13 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+?>
 
-    $data = [
-        'titleBox' => false,
-        'description' => 'La retejo de la Dana Esperantista Junulara Organizo'
-    ];
-
-    header('Location: /pri', true, 307);
-    die();
+<h1>
+     <?php
+          $hove = LSTR['pages']['404']['hove'];
+          $key = array_rand($hove);
+          echo $hove[$key];
+     ?>
+</h1>
+<p class="p"><?=LSTR['pages']['404']['msg']?></p>

@@ -19,9 +19,7 @@
      */
 
     $data = [
-        'titleBox' => false,
-        'description' => 'La retejo de la Dana Esperantista Junulara Organizo'
+        'titleBox' => true,
+        'breadcrumb' => [],
+        'description' => 'Novaĵoj de la Dana Esperanista Junulara Organizo!'
     ];
-
-    header('Location: /pri', true, 307);
-    die();

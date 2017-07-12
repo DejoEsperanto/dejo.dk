@@ -4,7 +4,8 @@
             "title": "Hjem"
         },
         "novajhoj": {
-            "title": "Nyheder"
+            "title": "Nyheder",
+            "unavailable": "Der er endnu ingen nyheder."
         },
         "pri": {
             "title": "Om os",
@@ -392,6 +393,20 @@
         },
         "statuto": {
             "title": "Vedtægter"
+        },
+
+
+        "404": {
+            "title": "404 Siden blev ikke fundet",
+            "hove": [
+                "Øv",
+                "Åh nej",
+                "Jamen dog",
+                "For syv sytten",
+                "For søren",
+                "Det kan vi da ikke ha'"
+            ],
+            "msg": "Det lader ikke til at den side eksisterer. Har du skrevet adressen rigtigt? Hvis du fulgte et link fra siden her, så <a href=\"/kontakti\">kontakt os venligst</a> så vi kan fikse det."
         }
     },
     "header": {

@@ -2,6 +2,10 @@
     require '../includes/header.php';
 
     $uri = $_SERVER['REQUEST_URI'];
+    if (isset($_GET['eraro']) && $_GET['eraro'] === '404') {
+        $uri = '/eraro_404';
+    }
+
     if ($uri !== '/' && substr($uri, -1) === '/') {
         $uri = substr($uri, 0, strlen($uri) - 1);
     }

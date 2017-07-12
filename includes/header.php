@@ -43,7 +43,9 @@
         '/pri/strukturo'    => ['strukturo',           false],
         '/pri/statuto'      => ['statuto',             false],
         '/kontakti'         => ['kontakti',            true],
-        '/kontakti/dankon'  => ['dankon_pro_kontakto', false]
+        '/kontakti/dankon'  => ['dankon_pro_kontakto', false],
+
+        '/eraro_404'        => ['404', false]
     ]);
 
     // Define inverse array
@@ -66,8 +68,14 @@
 
     function showError($code, $message) {
         http_response_code($code);
-        echo "$code $message";
-        die();
+        if ($code == '404') {
+            parse_str($_SERVER['QUERY_STRING'], $query);
+            $query['eraro'] = '404';
+            $queryString = http_build_query($query);
+            header('Location: ' . strtok($_SERVER['REQUEST_URI'], '?') . '?' . $queryString);
+        } else {
+            die("$code $message");
+        }
     }
 
     function isRecaptchaValid ($response, $ip) {

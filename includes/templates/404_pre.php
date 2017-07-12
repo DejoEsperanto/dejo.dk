@@ -19,9 +19,6 @@
      */
 
     $data = [
-        'titleBox' => false,
-        'description' => 'La retejo de la Dana Esperantista Junulara Organizo'
+        'titleBox' => true,
+        'description' => 'Tiu paĝo ne ekzistas'
     ];
-
-    header('Location: /pri', true, 307);
-    die();
