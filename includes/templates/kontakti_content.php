@@ -40,7 +40,7 @@
           </div>
      </div>
      <div>
-          <form method="post" action="/dankon_pro_kontakto">
+          <form method="post" action="/kontakti/dankon">
                <div>
                     <div>
                          <label for="form_name"><?=LSTR['pages']['kontakti']['form']['name']?>*</label>

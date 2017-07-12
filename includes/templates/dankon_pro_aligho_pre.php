@@ -20,7 +20,7 @@
 
     $data = [
         'titleBox' => true,
-        'breadCrumb' => ['alighi'],
+        'breadcrumb' => ['alighi'],
         'description' => 'Dankon pro via aliĝo al DEJO'
     ];
 

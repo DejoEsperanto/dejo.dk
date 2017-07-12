@@ -40,8 +40,8 @@
         '/alighi'              => ['alighi',              true],
         '/pri'                 => ['pri',                 true],
         '/kontakti'            => ['kontakti',            true],
-        '/dankon_pro_aligho'   => ['dankon_pro_aligho',   false],
-        '/dankon_pro_kontakto' => ['dankon_pro_kontakto', false]
+        '/alighi/dankon'       => ['dankon_pro_aligho',   false],
+        '/kontakti/dankon'     => ['dankon_pro_kontakto', false]
     ]);
 
     // Define inverse array
@@ -53,7 +53,7 @@
 
     define('LOCALES', ['da' => 'Dansk', 'eo' => 'Esperanto']);
 
-    if (array_key_exists($_COOKIE['lang'], LOCALES)) {
+    if (isset($_COOKIE['lang']) && array_key_exists($_COOKIE['lang'], LOCALES)) {
         define('LOCALE', $_COOKIE['lang']);
     } else {
         define('LOCALE', 'eo');

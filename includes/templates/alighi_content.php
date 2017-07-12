@@ -26,7 +26,7 @@
           </div>
      </div>
      <div>
-          <form method="post" action="/dankon_pro_aligho">
+          <form method="post" action="/alighi/dankon">
                <div>
                     <div>
                          <label for="form_firstname"><?=LSTR['pages']['alighi']['form']['firstname']?>*</label>
