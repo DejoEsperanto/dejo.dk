@@ -401,5 +401,6 @@
         "license_code": "Kildekode tilgængelig under $1GNU General Public License v3$2 eller nyere. $3GitHub$4.",
         "license_contents": "Indhold tilgængeligt under licensen <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.da\">Creative Commons Kreditering-DelPåSammeVilkår 4.0 International Licens</a> medmindre andet er sagt"
     },
-    "photo": "Foto"
+    "photo": "Foto",
+    "nurdana": ""
 }

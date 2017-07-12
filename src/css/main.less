@@ -270,6 +270,10 @@ i {
     font-style: italic;
 }
 
+b {
+    font-weight: bold;
+}
+
 main>div {
     padding-top: 24px;
     padding-bottom: 100px;
@@ -347,5 +351,43 @@ ul.ul {
 
     &.short {
         width: 80%;
+    }
+}
+
+ol.ol, ol.legal {
+    list-style-position: inside;
+    padding-left: 40px;
+
+    .p;
+
+    &>li:not(.last-child) {
+        margin-top: 8px;
+    }
+
+    &:not(ol.ol>li>.ol.ol) {
+        margin-top: 32px;
+    }
+
+    &>li ol.ol,&>li ol.legal {
+        font-size: 100%;
+    }
+}
+
+ol.ol {
+    list-style: decimal;
+}
+
+ol.legal {
+    &>li {
+        counter-increment: legal;
+
+        &:before {
+            content: "§ " counter(legal) " ";
+            font-weight: bold;
+        }
+    }
+
+    &:first-child {
+        counter-reset: legal;
     }
 }
