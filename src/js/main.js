@@ -39,7 +39,7 @@ $$('#preMenu>div>ul>li').forEach(el => {
 });
 const zamenhof = $('#zamenhofSherco');
 let zamenhofReady = true;
-$('#logo').addEventListener('mousedown', e => {
+$('#logo').addEventListener('contextmenu', e => {
     if (!zamenhofReady || e.which !== 3 || !e.shiftKey || !e.ctrlKey) {
         return;
     }
@@ -48,8 +48,8 @@ $('#logo').addEventListener('mousedown', e => {
         return;
     }
 
+    e.preventDefault();
     zamenhofReady = false;
-
     zamenhof.classList.add('active');
 
     setTimeout(() => {
