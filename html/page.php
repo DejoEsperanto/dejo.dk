@@ -58,6 +58,7 @@
         <meta name="twitter:site" content="@dejoesperanto">
         <meta name="twitter:title" content="<?=TITLE?>">
         <meta name="twitter:description" content="<?=$data['description']?>">
+        <meta name="twitter:image" content="/img/twitter_card.png">
 
         <meta name="description" content="<?=$data['description']?>">
         <meta name="keywords" content="esperanto,dejo,dana,esperantista,junulara,organizo,danmark,danio,denmark,international,language,ungdomsforening,ungdom">
