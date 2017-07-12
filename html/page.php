@@ -4,6 +4,7 @@
     $uri = $_SERVER['REQUEST_URI'];
     if (isset($_GET['eraro']) && $_GET['eraro'] === '404') {
         $uri = '/eraro_404';
+        http_response_code(404);
     }
 
     if ($uri !== '/' && substr($uri, -1) === '/') {
