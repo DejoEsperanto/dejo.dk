@@ -115,7 +115,7 @@ nav {
     }
 }
 
-#menu {
+#menu, #submenu>div {
     &>ul {
         display: flex;
         flex-wrap: wrap;
@@ -144,6 +144,15 @@ nav {
                 }
             }
         }
+    }
+}
+
+#submenu {
+    background-color: @white;
+    padding-bottom: 16px;
+
+    &>div>ul {
+        color: @background-color;
     }
 }
 

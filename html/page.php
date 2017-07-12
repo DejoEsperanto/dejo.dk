@@ -95,6 +95,9 @@
             if ($data['titleBox']) {
                 require 'titlebox.php';
             }
+            if (isset($data['submenu'])) {
+                require 'submenu.php';
+            }
         ?>
         <main>
             <div>

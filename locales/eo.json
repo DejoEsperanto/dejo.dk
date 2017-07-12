@@ -26,7 +26,8 @@
                 "text": [
                     "DEJO (Dana Esperantista Junulara Organizo) estas organizo kiu zor&shy;gas pri la danaj junuloj esperantistaj. Ni estas sekcio de nia gepatra organizo <a href=\"http://esperanto.dk/\">DEA (Dana Esperanto-Asocio)</a>, kiu zor&shy;gas pri esperanto en Danio ĉiuaĝe. DEJO zorgas nur pri la disvastigado de esperanto inter danoj sub la aĝo de 30 jaroj.",
                     "Kaj DEJO kaj DEA estas sekcioj de du internaciaj organizoj, kiuj havas sekciojn en preskaŭ ĉiuj la landoj de la mondo, respektive <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperan&shy;tista Junulara Organizo)</a> kaj <a href=\"http://uea.org\">UEA (Univer&shy;sala Esperanto-Asocio)</a>.",
-                    "DEJO celas oferti kursojn de esperanto al homoj sub 30 jaroj kaj esti renkontiĝejo por la dana esperantista junularo."
+                    "DEJO celas oferti kursojn de esperanto al homoj sub 30 jaroj kaj esti renkontiĝejo por la dana esperantista junularo.",
+                    "Vi povas legi pli pri <a href=\"/pri/strukturo\">la strukturo de DEJO ĉi tie</a> kaj <a href=\"/pri/statuto\">la statuto de DEJO ĉi tie</a>."
                 ]
             },
             "kiel_lerni": {
@@ -380,6 +381,12 @@
             "text": [
                 "Multan dankon pro via enkontaktiĝo! Ni kiel eble plej frue respondos."
             ]
+        },
+        "strukturo": {
+            "title": "Strukturo"
+        },
+        "statuto": {
+            "title": "Statuto"
         }
     },
     "header": {

@@ -26,7 +26,8 @@
                 "text": [
                     "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esper&shy;anto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esper&shy;anto blandt danskere under end 30 år.",
                     "Både DEJO og DEA hører til under to inter&shy;nationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org/da\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"http://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
-                    "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark."
+                    "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark.",
+                    "Du kan læse mere om <a href=\"/pri/strukturo\">DEJOs struktur her</a> og <a href=\"/pri/statuto\">DEJOs vedtægter her</a>."
                 ]
             },
             "kiel_lerni": {
@@ -380,6 +381,12 @@
             "text": [
                 "Mange tak for din henvendelse! Vi svarer hurtigst muligt."
             ]
+        },
+        "strukturo": {
+            "title": "Struktur"
+        },
+        "statuto": {
+            "title": "Vedtægter"
         }
     },
     "header": {
