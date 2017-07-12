@@ -76,7 +76,7 @@
             </div>
             <nav>
                 <div>
-                    <a href="/"><img src="/img/logo.svg" alt="<?=LSTR['header']['logo_alt']?>" title="<?=LSTR['header']['logo_title']?>"></a>
+                    <a href="/"><img id="logo" src="/img/logo.svg" alt="<?=LSTR['header']['logo_alt']?>" title="<?=LSTR['header']['logo_title']?>"></a>
                     <div id="menu">
                         <ul>
                             <?php
@@ -130,6 +130,7 @@
                 </div>
             </div>
         </footer>
+        <img id="zamenhofSherco" src="/img/zamenhof_malgranda.png">
         <script src="/js/main.js?<?=VERSION?>"></script>
     </body>
 </html>

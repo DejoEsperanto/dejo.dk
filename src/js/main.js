@@ -37,3 +37,23 @@ $$('#preMenu>div>ul>li').forEach(el => {
         location.reload();
     });
 });
+const zamenhof = $('#zamenhofSherco');
+let zamenhofReady = true;
+$('#logo').addEventListener('mousedown', e => {
+    if (!zamenhofReady || e.which !== 3 || !e.shiftKey || !e.ctrlKey) {
+        return;
+    }
+
+    if (e.offsetX < 142 || e.offsetX > 172 || e.offsetY > 38) {
+        return;
+    }
+
+    zamenhofReady = false;
+
+    zamenhof.classList.add('active');
+
+    setTimeout(() => {
+        zamenhof.classList.remove('active');
+        zamenhofReady = true;
+    }, 3000);
+});
