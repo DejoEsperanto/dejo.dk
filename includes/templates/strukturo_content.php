@@ -17,3 +17,6 @@
      * You should have received a copy of the GNU General Public License
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
+?>
+
+<p class="p"><?=implode('</p><p class="p">', LSTR['pages']['strukturo']['text'])?></p>
