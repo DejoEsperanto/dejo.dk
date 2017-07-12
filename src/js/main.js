@@ -33,7 +33,7 @@ $$('#preMenu>div>ul>li').forEach(el => {
         if (e.button !== 0)
             return;
 
-        document.cookie = `lang=${el.innerText}`;
+        document.cookie = `lang=${el.innerText};path=/`;
         location.reload();
     });
 });
