@@ -60,8 +60,8 @@
     if (isset($_COOKIE['lang']) && array_key_exists($_COOKIE['lang'], LOCALES)) {
         define('LOCALE', $_COOKIE['lang']);
     } else {
-        define('LOCALE', 'eo');
-        setcookie('lang', 'eo');
+        define('LOCALE', 'da');
+        setcookie('lang', 'da');
     }
 
     define('LSTR', json_decode(file_get_contents('../locales/' . LOCALE . '.json'), true));
