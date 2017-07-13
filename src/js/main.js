@@ -51,13 +51,15 @@ $('#logo').addEventListener('contextmenu', e => {
     e.preventDefault();
     zamenhofReady = false;
     zamenhof.style.display = 'block';
+    zamenhof.style.position = 'fixed';
     
     setTimeout(() => {
         zamenhof.classList.add('active');;
     }, 100);
 
     setTimeout(() => {
-        zamenhof.style.display = 'none';
+        zamenhof.style.display = '';
+        zamenhof.style.position = '';
         zamenhofReady = true;
     }, 5100);
 
