@@ -50,10 +50,18 @@ $('#logo').addEventListener('contextmenu', e => {
 
     e.preventDefault();
     zamenhofReady = false;
-    zamenhof.classList.add('active');
+    zamenhof.style.display = 'block';
+    
+    setTimeout(() => {
+        zamenhof.classList.add('active');;
+    }, 100);
+
+    setTimeout(() => {
+        zamenhof.style.display = 'none';
+        zamenhofReady = true;
+    }, 5100);
 
     setTimeout(() => {
         zamenhof.classList.remove('active');
-        zamenhofReady = true;
-    }, 3000);
+    }, 3100);
 });
