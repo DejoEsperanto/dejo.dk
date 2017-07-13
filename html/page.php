@@ -53,6 +53,7 @@
         <meta property="og:site_name" content="Dana Esperantista Junulara Organizo">
         <meta property="og:title" content="<?=TITLE?>">
         <meta property="og:description" content="<?=$data['description']?>">
+        <meta property="og:image" content="https://dejo.dk/img/twitter_card.png">
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@dejoesperanto">
