@@ -32,7 +32,7 @@
      define('RECAPTCHA_SECRET', '');
      */
 
-    define('VERSION', '1.0.2');
+    define('VERSION', '1.1.0');
     define('PAGES', [ /* path => [filename, show in menu] */
         '/'                 => ['index',               true],
         '/novajhoj'         => ['novajhoj',            true],
