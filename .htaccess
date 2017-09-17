@@ -21,4 +21,4 @@ RewriteBase /
 
 RewriteRule ^css/(.+\.css(?:\.map)?)$ dist/css/$1 [L]
 RewriteRule ^js/(.+\.js(?:\.map)?)$ dist/js/$1 [L]
-RewriteRule ^(?!dist|img|google6611e96464827125\.html|.well-known)(.*)/?$ html/page.php [L]
+RewriteRule ^(?!dist|img|google6611e96464827125\.html|.well-known|d/)(.*)/?$ html/page.php [L]
