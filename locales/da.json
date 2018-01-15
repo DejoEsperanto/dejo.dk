@@ -25,7 +25,7 @@
             "nia_rolo": {
                 "title": "Hvad laver DEJO?",
                 "text": [
-                    "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esper&shy;anto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esper&shy;anto blandt danskere under end 30 år.",
+                    "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esper&shy;anto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esper&shy;anto blandt danskere under 30 år.",
                     "Både DEJO og DEA hører til under to inter&shy;nationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org/da\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"https://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
                     "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark.",
                     "Du kan læse mere om <a href=\"/pri/strukturo\">DEJOs struktur her</a> og <a href=\"/pri/statuto\">DEJOs vedtægter her</a>."
@@ -360,7 +360,7 @@
             ],
             "default_country": "Danmark",
             "text": [
-                "Det koster 100 kr om året at være medlem af DEJO (Dana Esperantista Junulara Orga&shy;nizo). Ved tilmelding til DEJO bliver du også automatisk medlem af vores moder&shy;orga&shy;ni&shy;sation <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Med&shy;lemmer af DEA modtager fire gange om året vores blad “Esperanto en Danio” med posten.",
+                "Det koster 100 kr om året at være medlem af DEJO (Dana Esperantista Junulara Orga&shy;nizo) indtil man fylder 26, hvorefter det koster 200 kr. Ved tilmelding til DEJO bliver du også automatisk medlem af vores moder&shy;orga&shy;ni&shy;sation <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Med&shy;lemmer af DEA modtager fire gange om året vores blad “Esperanto en Danio” med posten.",
                 "Alle medlemmer af DEA under 30 år er også medlemmer af DEJO.",
                 "DEA er en officiel lands&shy;dækkende organi&shy;sation under <a href=\"https://uea.org\">UEA (Universala Esperanto-Asocio)</a> og DEJO er en officiel lands&shy;dæk&shy;kende ungdoms&shy;organi&shy;sation under <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperant&shy;ista Junul&shy;ara Orga&shy;nizo)</a>.",
                 "Alle medlemmer af UEA under 35 år er også medlemmer af TEJO.",

@@ -64,7 +64,7 @@
         header("Location: /alighi", true, 307);
         die();
     }
-    $birthday = $birthday->format('d/m/Y'); // TODO: Make this customizable
+    $birthdayDisplay = $birthday->format('d/m/Y');
     $address = isset($_POST['address']) ? substr($_POST['address'], 0, 200) : '';
     $address .= isset($_POST['zipcode']) ? ', ' . substr($_POST['zipcode'], 0, 20) : '';
     $address .= isset($_POST['city']) ? ' ' . substr($_POST['city'], 0, 50) : '';
@@ -73,10 +73,25 @@
     $phone = isset($_POST['phone']) ? substr($_POST['phone'], 0, 20) : '';
     $individual = isset($_POST['individual']) ? (bool)$_POST['individual'] : false;
 
-    if ($individual) {
-        $payment = '290';
+    $maxBirthday = new DateTime();
+    $minBirthday = new DateTime();
+    $minBirthday->modify('-30 years');
+    $cheapBirthday = new DateTime();
+    $cheapBirthday->modify('-26 years');
+
+    if ($birthday > $maxBirthday || $birthday < $minBirthday) {
+        header("Location: /alighi", true, 307);
+        die();
+    }
+
+    if ($birthday >= $cheapBirthday) {
+        $payment = 100;
     } else {
-        $payment = '100';
+        $payment = 200;
+    }
+    
+    if ($individual) {
+        $payment += 190;
     }
 
     $body = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '_inline.html');
@@ -87,7 +102,7 @@
     $body = str_replace('${bank_number}', LSTR['pages']['dankon_pro_aligho']['bank_number'], $body);
     $body = str_replace('${firstname}', $firstname, $body);
     $body = str_replace('${lastname}', $lastname, $body);
-    $body = str_replace('${birthday}', $birthday, $body);
+    $body = str_replace('${birthday}', $birthdayDisplay, $body);
     $body = str_replace('${address}', $address, $body);
     $body = str_replace('${email}', $email, $body);
     $body = str_replace('${phone}', $phone, $body);
@@ -99,7 +114,7 @@
     $altBody = str_replace('${bank_number}', LSTR['pages']['dankon_pro_aligho']['bank_number'], $altBody);
     $altBody = str_replace('${firstname}', $firstname, $altBody);
     $altBody = str_replace('${lastname}', $lastname, $altBody);
-    $altBody = str_replace('${birthday}', $birthday, $altBody);
+    $altBody = str_replace('${birthday}', $birthdayDisplay, $altBody);
     $altBody = str_replace('${address}', $address, $altBody);
     $altBody = str_replace('${email}', $email, $altBody);
     $altBody = str_replace('${phone}', $phone, $altBody);
