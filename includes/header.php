@@ -44,6 +44,7 @@
         '/pri/statuto'      => ['statuto',             false],
         '/kontakti'         => ['kontakti',            true],
         '/kontakti/dankon'  => ['dankon_pro_kontakto', false],
+        '/privatvivo'       => ['privatvivo',          false],
 
         '/eraro_404'        => ['404', false]
     ]);

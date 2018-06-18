@@ -109,7 +109,8 @@
                 "email": "E-mail-adresse",
                 "phone": "Telefonnummer",
                 "submit": "Bliv medlem!",
-                "individual": "Jeg vil også være individuelt medlem hos UEA/TEJO"
+                "individual": "Jeg vil også være individuelt medlem hos UEA/TEJO",
+                "privacy": "Ved tilmelding accepterer jeg $1DEJOs privatlivs&shy;politik$2."
             },
             "required": "Obligatoriske",
             "countries": [
@@ -396,6 +397,61 @@
         "statuto": {
             "title": "Vedtægter"
         },
+        "privatvivo": {
+            "title": "Privatlivspolitik",
+            "date": "d. 18. juni 2018",
+            "text": [
+                {
+                    "headline": "Beskyttelse af privatliv",
+                    "text": [
+                        "Vi behandler oplysninger givet til os af medlemmerne iflg. den gældende lovgivning. Vi er klar over, at medlemmernes oplysninger skal behandles med respekt for oplysningernes konfidentialitet og for medlemmernes privatliv.",
+                        "DEJO er dataansvarlig for oplysningerne, som vi modtager af og om medlemmerne.",
+                        "Ansvaret vedrører samtlige oplysninger, der direkte eller indirekte kan forbindes til en person.",
+                        "Ansvarlig for databeskyttelse i DEJO er den til hver en tid valgte bestyrelse.",
+                        "DEJO behandler kun dine oplysninger i så lang tid som er nødvendig for at kunne realisere de mål, som er årsag til vores indsamling af dine data."
+                    ]
+                },
+                {
+                    "headline": "Databehandslingsadfærd",
+                    "text": [
+                        "Målene for behandling af data om medlemmer er:",
+                        [
+                            "generel kommunikation med medlemmer",
+                            "indkaldelse til forsamlinger og aktiviteter",
+                            "indkaldelse til generalforsamlinger",
+                            "betaling af medlemsgebyr til Dana Esperanto-Asocio (DEA)",
+                            "eventuel anmodning om financiel støtte",
+                            "eventuel kontakt til Tutmonda Esperantista Junulara Organizo (TEJO)",
+                            "kontakt til Esperantoforeningen for Danmark (DEA)"
+                        ],
+                        "Vi behandler følgende oplysninger om samtlige medlemmer i foreningen:",
+                        [
+                            "navn",
+                            "postadresser",
+                            "e-mail-adresser",
+                            "telefonnumre",
+                            "fødselsdato"
+                        ],
+                        "Vi behandler følgende oplysninger om alle besøgende på hjemmesiden:",
+                        [
+                            "IP-adreso"
+                        ]
+                    ]
+                },
+                {
+                    "headline": "Dine rettigheder",
+                    "text": [
+                        "Du kan til hver en tid skriftligt via e-mail til $1 bede Esperantoforeningen for Danmark om at rette, slette eller tilsende dig en maskinlæselig sammenfatning af dine data. Vi vil til hver en tid efterkomme disse anmodninger. I tilfælde af, at du anmoder om sletning af dine data forbeholder DEJO sig retten til at fjerne dit medlemskab i foreningen."
+                    ]
+                },
+                {
+                    "headline": "Cookies og lignende",
+                    "text": [
+                        "DEJO bruger udelukkende nødvendige cookies. Disse cookies er nødvendige for at hjemmesiden kan fungere ordentligt. Vi sporer ikke din adfærd på dejo.dk eller videregiver oplysninger gemt i cookies med tredjepart."
+                    ]
+                }
+            ]
+        },
 
 
         "404": {
@@ -419,6 +475,7 @@
         "logo_alt": "DEJOs logo",
         "contact": "Kontakt",
         "moreinfo": "Mere information",
+        "privacy": "Privatlivspolitik",
         "copyright": "&copy; Dansk Esperanto Ungdomsforening 1986&ndash;2018",
         "license_code": "Kildekode tilgængelig under $1GNU General Public License v3$2 eller nyere. $3GitHub$4.",
         "license_contents": "Indhold tilgængeligt under licensen <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.da\">Creative Commons Kreditering-DelPåSammeVilkår 4.0 International Licens</a> medmindre andet er sagt"

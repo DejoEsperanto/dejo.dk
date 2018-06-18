@@ -97,6 +97,16 @@
                          <label for="form_individual"><?=LSTR['pages']['alighi']['form']['individual']?></label>
                     </div>
                </div>
+               <div>
+                    <div class="text">
+                         <?php
+                              $text = LSTR['pages']['alighi']['form']['privacy'];
+                              $text = str_replace('$1', '<a href="/privatvivo" target="_blank">', $text);
+                              $text = str_replace('$2', '</a>', $text);
+                              echo $text;
+                         ?>
+                    </div>
+               </div>
                <div id="final">
                     <div class="g-recaptcha" data-sitekey="6LczlSgUAAAAAHdaXdWPN2aFrWDAmaneGHEaGb2v"></div>
                     <div>

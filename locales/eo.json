@@ -109,7 +109,8 @@
                 "email": "Retpoŝtadreso",
                 "phone": "Telefonnumero",
                 "submit": "Aliĝi!",
-                "individual": "Mi ankaŭ volas aliĝi al UEA/TEJO kiel individua membro"
+                "individual": "Mi ankaŭ volas aliĝi al UEA/TEJO kiel individua membro",
+                "privacy": "Je aliĝo mi akceptas $1la privatec&shy;politikon de DEJO$2."
             },
             "required": "Devigataj",
             "countries": [
@@ -396,6 +397,61 @@
         "statuto": {
             "title": "Statuto"
         },
+        "privatvivo": {
+            "title": "Privatecpolitiko",
+            "date": "18-a de junio, 2018",
+            "text": [
+                {
+                    "headline": "Privatviva protekto",
+                    "text": [
+                        "Ni traktas la informojn donitajn al ni de la membroj konforme al la validanta leĝaro. Ni konscias, ke la informoj de la membroj devas esti traktataj kun respekto al la konfidenco de la informoj, kaj al la privata vivo de la membroj",
+                        "DEJO estas datumrespondeca pri la informoj, kiujn ni ricevas de kaj pri la membroj.",
+                        "La respondeco koncernas ĉiujn informojn kiuj rejte aŭ nerekte estas ligeblaj al iu persono.",
+                        "Respondeca pri datumprotekto en DEJO estas la ajnatempe oficanta estraro.",
+                        "DEJO traktas viajn informojn nur dum tiom longe kiom necesas por realigi la celojn, pro kiuj ni kolektas viajn datumojn."
+                    ]
+                },
+                {
+                    "headline": "Datumtrakta agado",
+                    "text": [
+                        "La celoj de primembra datumtraktado estas:",
+                        [
+                            "ĝenerala membrokomunikado",
+                            "kunvokado al membrokunvenoj kaj aktivaĵoj",
+                            "kunvokado al ĝeneralaj kunvenoj",
+                            "kotizado al Dana Esperanto-Asocio (DEA)",
+                            "eventuala petado de stipendioj",
+                            "eventuala kontakto al Tutmonda Esperantista Junulara Organizo (TEJO)",
+                            "kontakto al Dana Esperanto-Asocio (DEA)"
+                        ],
+                        "Ni traktas la jenajn informojn pro ĉiu membro de la organizo",
+                        [
+                            "nomo",
+                            "poŝtaj adresoj",
+                            "retpoŝta adreso",
+                            "telefonnumero(j)",
+                            "naskiĝtago"
+                        ],
+                        "Ni traktas la jenajn informojn pri ĉiu vizitanto en la retejo:",
+                        [
+                            "IP-adreso"
+                        ]
+                    ]
+                },
+                {
+                    "headline": "Viaj rajtoj",
+                    "text": [
+                        "Vi ajnatempe rajtas skribe peti al Dana Esperantista Junulara Organizo per retmesaĝo al $1, ke ni korektu, forigu aŭ sendu al vi en maŝinlegebla formato viajn datumojn kaj ni agos laŭ tiu peto. Okaze ke vi petas forigon de viaj datumoj Dana Esperantista Junulara Organizo rajtas malmembrigi vin el la organizo."
+                    ]
+                },
+                {
+                    "headline": "Kuketoj kaj simile",
+                    "text": [
+                        "Dana Esperantista Junulara Organizo uzas nur necesajn kuketojn. Tiuj ĉi kuketoj necesas por ke la retejo povu bone funkcii. Ni ne ŝpuras vian agadon en dejo.dk aŭ disdonas la informojn konservitajn en la kuketoj kun iu ajn."
+                    ]
+                }
+            ]
+        },
 
 
         "404": {
@@ -419,6 +475,7 @@
         "logo_alt": "Emblemo de DEJO",
         "contact": "Kontakti",
         "moreinfo": "Pli da informoj",
+        "privacy": "Privatecpolitiko",
         "copyright": "&copy; Dana Esperantista Junulara Organizo 1986&ndash;2018",
         "license_code": "Programkodo disponebla laŭ $1GNU Ĝenerala Publika Permesilo v3$2 aŭ pli nova. $3GitHub$4.",
         "license_contents": "Enhavo disponebla laŭ la permesilo <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.eo\">Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda</a> krom se alie diriĝis"
