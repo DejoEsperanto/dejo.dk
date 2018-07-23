@@ -1,6 +1,6 @@
 <?php
     /*
-     * Copyright (C) 2017 Mia Nordentoft, Anton S. Meiner, GitHub contributors
+     * Copyright (C) 2018 Mia Nordentoft, Anton S. Meiner, GitHub contributors
      *
      * This file is part of dejo.dk.
      *
@@ -45,6 +45,7 @@
         '/kontakti'         => ['kontakti',            true],
         '/kontakti/dankon'  => ['dankon_pro_kontakto', false],
         '/privatvivo'       => ['privatvivo',          false],
+        '/roskilde'         => ['roskilde',            false],
 
         '/eraro_404'        => ['404', false]
     ]);
