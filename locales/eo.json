@@ -41,12 +41,13 @@
                 ],
                 "aliaj_title": "Aliaj",
                 "duolingo": [
-                    "Duolingo estas senpaga, reta ilo por lerni lingvojn, kiu baz&shy;iĝas de sperto&shy;pedagogio. Oni povas tie lerni espe&shy;ranton <a href=\"https://www.duolingo.com/course/eo/en/Learn-Esperanto-Online\">el la angla</a> kaj <a href=\"https://www.duolingo.com/course/eo/es/Learn-Esperanto-Online\">la hispana</a>. Kurso el la portu&shy;gala <a href=\"https://incubator.duolingo.com/courses/eo/pt/status\">prilabor&shy;iĝas</a>."
+                    "Duolingo estas senpaga, reta ilo por lerni lingvojn, kiu baz&shy;iĝas de sperto&shy;pedagogio. Oni povas tie lerni espe&shy;ranton <a href=\"https://www.duolingo.com/course/eo/en/Learn-Esperanto-Online\">el la angla</a>, <a href=\"https://www.duolingo.com/course/eo/es/Learn-Esperanto-Online\">la hispana</a> kaj <a href=\"https://www.duolingo.com/course/eo/pt/Learn-Esperanto-Online\">la portugala</a>."
                 ],
-                "lernu": [
-                    "Lernu estas senpaga, reta ilo dediĉita al lernado de espe&shy;ranto. Estas kursoj en multaj lingvoj&mdash;<a href=\"https://lernu.net/da\">inkluzive la danan</a>."
+                "100jarojn": [
+                    "“100 jarojn post Zamĉjo” estas dana lernolibro pri Esperanto celita al junuloj. La libro traktas Esperanton de moderna vidpunkto kaj enkondukas la leganton al la lingvo kaj la movado malantaŭ ĝi. <a href=\"https://100.dejo.dk\">Legu pli pri la libro tie ĉi</a>."
                 ],
                 "aliaj": [
+                    "Lernu estas senpaga, reta ilo dediĉita al lernado de espe&shy;ranto. Estas kursoj en multaj lingvoj&mdash;<a href=\"https://lernu.net/da\">inkluzive la danan</a>.",
                     "Mia <span class=\"sc\">Nordentoft</span> tradukis retan version de la Zagreb-meto&shy;do al la dana. Per tiu kurso oni povas lerni Esperanton en 12 simplaj lekcioj. <a href=\"https://learn.esperanto.com/da\">Provu ĝin ĉi tie</a>",
                     "Eckhard <span class=\"sc\">Bick</span> kunlabore kun DEA kreis <a href=\"http://www.vortaro.dk/\">vortaro.dk</a>, kiu estas senpaga, reta vortaro inter la dana kaj Esperanto. La vor&shy;taro ankaŭ aĉet&shy;eblas en fizika versio tra DEA.",
                     "Estas multe da eblecoj por lerni Esperanton interrete. Jonas <span class=\"sc\">Dalmose</span> faris liston de multaj el ili <a href=\"http://esperanto.saluton.dk/\">en sia retejo</a>."
@@ -99,7 +100,7 @@
         "alighi": {
             "title": "Aliĝi",
             "form": {
-                "firstname": "Antaŭnomo",
+                "firstname": "Persona nomo",
                 "lastname": "Familinomo",
                 "birthday": "Naskiĝtago",
                 "address": "Adreso",
@@ -391,7 +392,8 @@
             "text": [
                 "DEJO jure havas estraron kiu konsistas de unu prezidanto kaj almenaŭ tri aliaj membroj, kiuj elektas vicprezidanton, kasiston kaj sekretarion.",
                 "Dum la jaro de 2017 estas nur prezidanto pro ŝanĝiĝegoj. Je la venonta jarkunveno, estos elektitaj aliaj estraranoj kiel priskribite en <a href=\"/pri/statuto\">la statuto</a>.",
-                "La prezidanto de DEJO kaj komitatano A de TEJO por Danio estas Mia Nordentoft. La kontaktinformoj de Mia troviĝas en <a href=\"/kontakti\">la kontaktpaĝo</a>."
+                "La prezidanto de DEJO estas Mia Nordentoft. La kontaktinformoj de Mia troviĝas en <a href=\"/kontakti\">la kontaktpaĝo</a>.",
+                "Komitatano A en TEJO por Danio estas <a href=\"mailto:abeneezer@gmail.com\">Tobias Nowak</a>."
             ]
         },
         "statuto": {

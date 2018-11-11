@@ -41,12 +41,13 @@
                 ],
                 "aliaj_title": "Andre",
                 "duolingo": [
-                    "Duolingo er en gratis, online plat&shy;form til at lære sprog, der bygger på erfa&shy;rings&shy;pæda&shy;go&shy;gik. Man kan lære esperanto på duolingo fra <a href=\"https://www.duolingo.com/course/eo/en/Learn-Esperanto-Online\">engelsk</a> og <a href=\"https://www.duolingo.com/course/eo/es/Learn-Esperanto-Online\">spansk</a>. Et kursus fra portugi&shy;sisk <a href=\"https://incubator.duolingo.com/courses/eo/pt/status\">er på vej</a>."
+                    "Duolingo er en gratis, online plat&shy;form til at lære sprog, der bygger på erfa&shy;rings&shy;pæda&shy;go&shy;gik. Man kan lære esperanto på duolingo fra <a href=\"https://www.duolingo.com/course/eo/en/Learn-Esperanto-Online\">engelsk</a>, <a href=\"https://www.duolingo.com/course/eo/es/Learn-Esperanto-Online\">spansk</a> og <a href=\"https://www.duolingo.com/course/eo/pt/Learn-Esperanto-Online\">portugisisk</a>."
                 ],
-                "lernu": [
-                    "Lernu er en gratis, online plat&shy;form dedikeret til at lære esperanto. Der findes kurser på mange forskellige sprog&mdash;<a href=\"https://lernu.net/da\">også på dansk</a>."
+                "100jarojn": [
+                    "<i>Moderne esperanto for begyndere</i> er en dansk lærebog til esperanto, der er målrettet unge. Bogen kigger på esperanto fra et moderne synspunkt og introducerer læseren til sproget og bevæg&shy;elsen bag det. <a href=\"https://100.dejo.dk\">Læs mere om bogen her</a>."
                 ],
                 "aliaj": [
+                    "Lernu er en gratis, online plat&shy;form dedikeret til at lære esperanto. Der findes kurser på mange forskellige sprog&mdash;<a href=\"https://lernu.net/da\">også på dansk</a>.",
                     "Mia Nordentoft har oversat en online-version af Zagreb-meto&shy;den til dansk. Med det kursus kan man lære espe&shy;ranto i 12 simple lektioner. <a href=\"https://learn.esperanto.com/da\">Prøv det her.</a>",
                     "Eckhard Bick har i sam&shy;ar&shy;bejde med DEA skabt <a href=\"http://www.vortaro.dk/\">vortaro.dk</a>, som er en gratis online dansk-esperanto-dansk ord&shy;bog. Ord&shy;bogen kan også kø&shy;bes i en fysisk udgave gen&shy;nem DEA.",
                     "Der findes også mange andre muligheder for at lære espe&shy;ranto online. Jonas Dalmose har kompileret en liste over mange af dem <a href=\"http://esperanto.saluton.dk\">på sin hjem&shy;me&shy;side</a>."
@@ -390,8 +391,9 @@
             "title": "Struktur",
             "text": [
                 "DEJO har juridisk set en bestyrelse, som består af en forperson og mindst tre andre medlemmer, som vælger næstformand, kasserer og sekretær.",
-                "I år 2017 er der kun en forperson grundet større strukturmæssige ændringer. Ved det næstkommende årsmøde vælges en bestyrelse som beskrevet i <a href=\"/pri/statuto\">DEJOs vedtægter</a>.",
-                "Forpersonen for DEJO og komitémedlem A i TEJO for Danmark er Mia Nordentoft. Mias kontaktoplysninger kan findes på <a href=\"/kontakti\">kontaktsiden</a>."
+                "Der er dog på nuværende tidspunkt kun en forperson grundet større strukturmæssige ændringer. Ved det næstkommende årsmøde vælges en bestyrelse som beskrevet i <a href=\"/pri/statuto\">DEJOs vedtægter</a>.",
+                "Forpersonen for DEJO er Mia Nordentoft. Mias kontaktoplysninger kan findes på <a href=\"/kontakti\">kontaktsiden</a>.",
+                "Komitémedlem A i TEJO for Danmark er <a href=\"mailto:abeneezer@gmail.com\">Tobias Nowak</a>."
             ]
         },
         "statuto": {

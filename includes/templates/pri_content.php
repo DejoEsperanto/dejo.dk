@@ -1,6 +1,6 @@
 <?php
     /*
-     * Copyright (C) 2017 Mia Nordentoft, Anton S. Meiner, GitHub contributors
+     * Copyright (C) 2018 Mia Nordentoft, Anton S. Meiner, GitHub contributors
      *
      * This file is part of dejo.dk.
      *
@@ -43,10 +43,9 @@
           <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['duolingo'])?></p>
      </div>
      <div>
-          <h2>Lernu</h2>
-          <div><a href="https://lernu.net"><img src="/img/lernu.png"></a></div>
-          <p class="p small">&copy; lernu.net</p>
-          <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['lernu'])?></p>
+          <h2>Lærebog for unge</h2>
+          <div><a href="https://100.dejo.dk"><img src="/img/100jarojn.png"></a></div>
+          <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['pri']['kiel_lerni']['100jarojn'])?></p>
      </div>
      <div>
           <h2><?=LSTR['pages']['pri']['kiel_lerni']['aliaj_title']?></h2>
