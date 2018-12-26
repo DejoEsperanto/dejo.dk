@@ -1,6 +1,6 @@
 <?php
     /*
-     * Copyright (C) 2017 Mia Nordentoft, Anton S. Meiner, GitHub contributors
+     * Copyright (C) 2018 Mia Nordentoft, Anton S. Meiner, GitHub contributors
      *
      * This file is part of dejo.dk.
      *
@@ -89,9 +89,9 @@
     } else {
         $payment = 200;
     }
-    
+
     if ($individual) {
-        $payment += 190;
+        $payment += 330;
     }
 
     $body = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '_inline.html');
