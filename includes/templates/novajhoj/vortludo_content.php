@@ -29,7 +29,7 @@
 
 <p class="p">Ni invitas vin aliĝi kiel Beta-testanto de VORTLUDO, la unua vortpuzla ludo ekskluzive por Esperanto en poŝtelefonoj kaj tablokomputiloj, por kaj iOS kaj Android.</p>
 
-<p class="p">Kiel betatestanto vi ludos kontraŭ homoj de la tuta mondo. Ĉu vi havas kelkajn minutojn po tago aŭ multe pli da tempo dum la betatesta periodo, VORTLUDO tre aprezos engaĝiĝon kaj retrokuplojn. La betatesto komenciĝos lundon la 23-an de junio kaj daŭros kelkajn semajnojn.</p>
+<p class="p">Kiel betatestanto vi ludos kontraŭ homoj de la tuta mondo. Ĉu vi havas kelkajn minutojn po tago aŭ multe pli da tempo dum la betatesta periodo, VORTLUDO tre aprezos engaĝiĝon kaj retrokuplojn. La betatesto komenciĝos lundon la 24-an de junio kaj daŭros kelkajn semajnojn.</p>
 
 <p class="p">VORTLUDO estas kreita de eta dana videoludstudio, Krifle Games, kun subteno de Dana Esperantista Junulara Organizo (DEJO) kun helpo de D-ro Jacob Nordfalk, DTU.</p>
 
