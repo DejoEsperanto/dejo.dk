@@ -5,7 +5,17 @@
         },
         "novajhoj": {
             "title": "Novaĵoj",
-            "unavailable": "Ankoraŭ aperis neniuj novaĵoj."
+            "articles": [
+                {
+                    "title": "DEJO serĉas betatestantojn por nova poŝtelefona ludo",
+                    "date": "2019-06-22",
+                    "img": "vortludo.png",
+                    "href": "vortludo-betatesto"
+                }
+            ]
+        },
+        "novajhoj_vortludo_betatesto": {
+            "picture": "Vortludo"
         },
         "pri": {
             "title": "Pri ni",
@@ -483,7 +493,7 @@
         "contact": "Kontakti",
         "moreinfo": "Pli da informoj",
         "privacy": "Privatecpolitiko",
-        "copyright": "&copy; Dana Esperantista Junulara Organizo 1986&ndash;2018",
+        "copyright": "&copy; Dana Esperantista Junulara Organizo 1986&ndash;2019",
         "license_code": "Programkodo disponebla laŭ $1GNU Ĝenerala Publika Permesilo v3$2 aŭ pli nova. $3GitHub$4.",
         "license_contents": "Enhavo disponebla laŭ la permesilo <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.eo\">Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda</a> krom se alie diriĝis"
     },

@@ -1,6 +1,6 @@
 <?php
     /*
-     * Copyright (C) 2019 Mia Nordentoft, Anton S. Meiner, GitHub contributors
+     * Copyright (C) 2017 Mia Nordentoft, Anton S. Meiner, GitHub contributors
      *
      * This file is part of dejo.dk.
      *
@@ -18,18 +18,8 @@
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
 
-?>
-
-<div id="news">
-
-<?php
-     foreach (LSTR['pages']['novajhoj']['articles'] as $article) {
-          echo '<div>';
-          echo '<a href="/novajhoj/' . $article['href'] . '" class="newsTitle"><b>' . $article['title'] . '</b></a>';
-          echo '<i>' . $article['date'] . ', DEJO</i>';
-          echo '<a href="/novajhoj/' . $article['href'] . '" class="newsImg"><img src="/img/' . $article['img'] . '"></a>';
-          echo '</div>';
-     }
-?>
-
-</div>
+    $data = [
+        'titleBox' => true,
+        'breadcrumb' => ['novajhoj'],
+        'description' => 'DEJO serĉas betatestantojn por nova poŝtelefona ludo'
+    ];

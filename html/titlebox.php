@@ -11,7 +11,11 @@
                     $count = count($breadcrumb);
                     for ($i = 0; $i < $count; $i++) {
                         $name = $breadcrumb[$i];
-                        echo '<a href="' . PAGES_INVERSE[$name][0] . '">' . LSTR['pages'][$name]['title'] . '</a>';
+                        $title = LSTR['pages'][$name]['title'];
+                        if (!isset($title)) {
+                            $title = $data['description'];
+                        }
+                        echo '<a href="' . PAGES_INVERSE[$name][0] . '">' . $title . '</a>';
                         if ($i + 1 < $count) {
                             echo ' &raquo; ';
                         }

@@ -16,8 +16,8 @@
     if ($notFound) {
         showError('404', 'Ni ne trovis tiun paĝon');
     }
-    define('TITLE', LSTR['pages'][$pageDetails[0]]['title']);
     require PAGE . '_pre.php';
+    define('TITLE', isset(LSTR['pages'][$pageDetails[0]]['title']) ? LSTR['pages'][$pageDetails[0]]['title'] : $data['description']);
 
     header('Content-Language: ' . LOCALE);
 ?>

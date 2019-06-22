@@ -1,6 +1,6 @@
 <?php
     /*
-     * Copyright (C) 2018 Mia Nordentoft, Anton S. Meiner, GitHub contributors
+     * Copyright (C) 2019 Mia Nordentoft, Anton S. Meiner, GitHub contributors
      *
      * This file is part of dejo.dk.
      *
@@ -36,6 +36,8 @@
     define('PAGES', [ /* path => [filename, show in menu] */
         '/'                 => ['index',               true],
         '/novajhoj'         => ['novajhoj',            true],
+        '/novajhoj/vortludo-betatesto' => ['novajhoj/vortludo', false],
+
         '/okazajhoj'        => ['okazajhoj',           true],
         '/alighi'           => ['alighi',              true],
         '/alighi/dankon'    => ['dankon_pro_aligho',   false],
