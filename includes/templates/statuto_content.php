@@ -24,7 +24,7 @@
 <ol class="legal">
      <li>
           <b>Navn &amp; tilhørsforhold</b>
-          <p>Foreningens navn er Dana Esperantista Junulara Organizo (DEJO). Foreningen er stiftet i 1986. DEJO er selvstændig sektion af DEA og landsektion af TEJO (jf. TEJOs love).</p>
+          <p>Foreningens navn er “Dana Esperantista Junulara Organizo” (DEJO) på esperanto og “Dansk Esperanto Ungdomsforening” på dansk. Foreningen er stiftet i 1986. DEJO er selvstændig sektion af Dana Esperanto-Asocio (DEA) og landsektion af Tutmonda Esperantista Junulara Organizo (TEJO)jf. TEJOs love.</p>
      </li>
      <li>
           <b>Formål</b>
@@ -34,17 +34,17 @@
           <b>Medlemskab</b>
           <ol class="ol">
                <li>DEJO består af aktive medlemmer, interesserede og æresmedlemmer.</li>
-               <li>Aktive medlemmer er alle medlemmer i DEJO, som er yngre end 30 år, eller medlemmer, som har en funktion i DEJO og er yngre end 35 år.</li>
+               <li>Aktive medlemmer er alle medlemmer i DEJO, som er yngre end 35 år i begyndelsen af året.</li>
                <li>Interesserede er personer eller organisationer, som modtager nyt fra foreningen, og kan deltage i aktiviteterne i en periode til de bliver medlemmer.</li>
                <li>Æresmedlemmer er personer, som specielt har udmærket sig i foreningens arbejde.</li>
-               <li>Indmeldelse sker til Esperantoforeningen for Danmarks (DEA) kasserer.</li>
+               <li>Indmeldelse sker enten gennem DEJO eller DEA til DEAs kasserer.</li>
           </ol>
      </li>
      <li>
           <b>Udmeldelse</b>
           <ol class="ol">
-               <li>Lokalforeninger eller enkelte medlemmer, som åbenbart modarbejder foreningens mål, kan udelukkes af foreningen efter foreningsledelsens beslutning. Udelukket forening eller et udelukket medlem har ret til at klage over beslutningen til årsmødet.</li>
-               <li>Medlemskab ophører ved udgangen af det kalenderår hvori medlemmet fylder 30 år. Funktionærer i DEJO kan vælges til de er 35 år.</li>
+               <li>Lokalforeninger eller enkelte medlemmer, som tydeligt modarbejder foreningens mål, kan udelukkes af foreningen efter bestyrelsens beslutning. Udelukket forening eller udelukket medlem har ret til at klage over beslutningen til årsmødet.</li>
+               <li>Medlemskab ophører ved udgangen af det kalenderår hvori medlemmet fylder 35 år.</li>
                <li>Medlem eller forening, som trods påmindelse ikke har betalt afgiften i løbet af det forgange kalenderår, anses som værende udtrådt af foreningen.</li>
                <li>Ved udelukkelse af medlem af DEA eller TEJO udelukkes medlemmet automatisk af DEJO.</li>
           </ol>
@@ -57,16 +57,16 @@
           <b>Meddelelser</b>
           <ol class="ol">
                <li>Meddelelser fra bestyrelsen til foreninger og øvrige medlemmer skal ske på den mest formålstjenlige måde.</li>
-               <li>Alle betalende medlemmer modtager DEAs officielle organ “Esperanto en Danio”.</li>
+               <li>Alle betalende medlemmer modtager DEAs officielle organ “Esperanto en Danio” med posten.</li>
           </ol>
      </li>
      <li>
           <b>Bestyrelsen</b>
           <ol class="ol">
-               <li>DEJO ledes af en bestyrelse, der består af forperson og mindst 3 andre medlemmer, og som konstituerer sig med næstformand, kasserer og sekretær.</li>
-               <li>Er forpersonen forhindret, træder næstformanden i vedkommendes sted indtil førstkommende generalforsamling.</li>
-               <li>Ved valg af bestyrelsen vælges forpersonen for et år og tre øvrige bestyrelsesmedlemmer for to år.</li>
-               <li>Bestyrelsen er beslutningsdygtig, når mere end halvdelen af bestyrelsesmedlemmer deltager. I tilfælde af stemmelighed er forpersonens stemme afgørende.</li>
+               <li>DEJO ledes af en bestyrelse, der består af forperson og mindst 2 andre medlemmer: næstforperson og sekretær.</li>
+               <li>Er forpersonen forhindret, træder næstforpersonen i vedkommendes sted indtil førstkommende generalforsamling.</li>
+               <li>Ved valg af bestyrelsen vælges forpersonen for et år og mindst to øvrige bestyrelsesmedlemmer for to år.</li>
+               <li>Bestyrelsen er beslutningsdygtig når mere end halvdelen af bestyrelsesmedlemmer deltager. I tilfælde af stemmelighed er forpersonens stemme afgørende.</li>
                <li>Bestyrelsen står til ansvar for sine handlinger på årsmødet.</li>
           </ol>
      </li>
@@ -75,38 +75,35 @@
           <ol class="ol">
                <li>DEJOs årsmøde skal holdes i løbet af kalenderårets første seks måneder. Det skal indkaldes mindst en måned forud.</li>
                <li>Om foreningens virksomhed i det forgangne år udarbejdes en beretning, som samtidig med forslag til dagsordnen oplæses på årsmødet. Forslag til optagelse på dagsorden skal fremsættes skriftligt overfor forpersonen senest 3 uger før årsmødet og meddeles medlemmerne senest en uge i forvejen.</li>
-               <li>Stemmeret har kun de medlemmer, der har betalt forfalden kontingent. Ved årsmødet har medlemmer som er nærværende, bortset fra understøttende medlemmer, hver en stemme. Ikke nærværende medlemmer, bortset fra understøttende, kan stemme ved andet medlem, som skal fremvise fuldmagt.</li>
-               <li>Alle beslutninger, bortset fra dem, som behandles i § 13 og § 14 kræver en enkelt stemmeovertægt. Ved lige stemmetal foretages lodtrækning.</li>
+               <li>Stemmeret har kun de medlemmer, der har betalt forfalden kontingent. Ved årsmødet har medlemmer som er nærværende hver én stemme. Ikke nærværende medlemmer kan stemme ved andet medlem, som skal fremvise fuldmagt.</li>
+               <li>Alle beslutninger, bortset fra dem, som behandles i § 10 og § 11 kræver en enkelt stemmeovertægt. Ved lige stemmetal er forpersonens stemme afgørende.</li>
                <li>Skriftlig afstemning foretages, hvis et medlem ønsker det.</li>
                <li>
                     Dagsorden skal indeholde mindst følgende punkter:
                     <ol class="ol">
                          <li>Valg af ordstyrer og referent for årsmødet</li>
-                         <li>Bestyrelsens beretning</li>
-                         <li>Årsresultat</li>
+                         <li>Referat af det forgangne år</li>
                          <li>Forslag</li>
                          <li>Valg af forperson</li>
                          <li>Valg af bestyrelsesmedlemmer</li>
-                         <li>Valg af repræsentanter i TEJO og DEA, efter behov</li>
+                         <li>Valg af repræsentant i DEA efter behov</li>
+                         <li>Valg af komitémedlem(mer) A i TEJO</li>
                     </ol>
                </li>
           </ol>
      </li>
      <li>
           <b>Ekstraordinært årsmøde</b>
-          <p>Bestyrelsen kan, med mindst 4 ugers varsel og med angivelse af dagsorden, indkalde til ekstraordinært årsmøde, hvis mindst ⅓ af medlemmerne har afgivet skriftlig begæring om dette. Forslag kan afgives af ethvert medlem. De bør være bestyrelsen i hænde mindst to uger før årsmådet.</p>
+          <p>Bestyrelsen kan med mindst 4 ugers varsel og med angivelse af dagsorden indkalde til ekstraordinært årsmøde. Forslag kan afgives af ethvert betalende medlem senest to uger før årsmødet.</p>
      </li>
      <li>
           <b>Ændringer af love</b>
-          <p>Forslag til ændringer, tillæg eller ophævelse af bestemmelser i DEJOs love skal sendes til alle medlemmer mindst en måned før ordinært årsmøde. Forslaget skal være godkendt med ⅔ majoritet af årsmødet, for at forslaget skal anses godkendt.</p>
+          <p>Forslag til ændringer, tillæg eller ophævelse af bestemmelser i DEJOs love skal sendes til alle medlemmer mindst en måned før ordinært årsmøde, eller to uger inden ekstraordinært årsmøde. Forslaget skal være godkendt med ⅔ majoritet af årsmødet for at forslaget anses godkendt.</p>
      </li>
      <li>
           <b>Opløsning af DEJO</b>
-          <ol class="">
-               <li>Beslutning om opløsning af DEJO kan kun træffes af et årsmøde efter samme procedure som ved ændringer af love.</li>
-               <li>Ved opløsning af foreningen skal dets eventuelle midler anvendes til et formål, som kan anses at være på linje med foreningens formål.</li>
-          </ol>
+          <p>Beslutning om opløsning af DEJO kan kun træffes ved et årsmøde efter samme procedure som ved ændringer af love. Ved opløsning af foreningen skal dets eventuelle midler anvendes til et formål som kan anses at være på linje med foreningens mål og så vidt muligt videregives til DEA.</p>
      </li>
 </ol>
 
-<p>Vedtægter med ændringer vedtaget den 25. april 2004.</p>
+<p>Vedtægter med ændringer vedtaget den 8. august 2021.</p>

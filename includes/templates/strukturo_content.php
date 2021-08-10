@@ -19,4 +19,5 @@
      */
 ?>
 
+<h2><?=LSTR['pages']['strukturo']['board_title']?></h2>
 <p class="p"><?=implode('</p><p class="p">', LSTR['pages']['strukturo']['text'])?></p>
