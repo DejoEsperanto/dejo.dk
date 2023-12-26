@@ -27,5 +27,8 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.11",
     "less-plugin-autoprefix": "^1.5.1"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }
