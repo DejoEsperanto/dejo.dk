@@ -72,10 +72,11 @@
     $email = substr($_POST['email'], 0, 200);
     $phone = isset($_POST['phone']) ? substr($_POST['phone'], 0, 20) : '';
     $individual = isset($_POST['individual']) ? (bool)$_POST['individual'] : false;
+    $eed = isset($_POST['eed']) ? (bool)$_POST['eed'] : false;
 
     $maxBirthday = new DateTime();
     $minBirthday = new DateTime();
-    $minBirthday->modify('-30 years');
+    $minBirthday->modify('-35 years');
     $cheapBirthday = new DateTime();
     $cheapBirthday->modify('-26 years');
 
@@ -94,6 +95,10 @@
         $payment += 330;
     }
 
+    if ($eed) {
+        $payment += 95;
+    }
+
     $body = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '_inline.html');
     $mail->AddEmbeddedImage(__DIR__ . '/../../email/logo_nigra.png', 'dejo-logo', 'logo.png');
     $body = str_replace('${logo-cid}', 'dejo-logo', $body);
@@ -107,6 +112,7 @@
     $body = str_replace('${email}', $email, $body);
     $body = str_replace('${phone}', $phone, $body);
     $body = str_replace('${uea-tejo}', $individual ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $body);
+    $body = str_replace('${eed}', $eed ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $body);
 
     $altBody = file_get_contents(__DIR__ . '/../../email/aligho_' . LOCALE . '.txt');
     $altBody = str_replace('${name}', "$firstname $lastname", $altBody);
@@ -119,11 +125,11 @@
     $altBody = str_replace('${email}', $email, $altBody);
     $altBody = str_replace('${phone}', $phone, $altBody);
     $altBody = str_replace('${uea-tejo}', $individual ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $altBody);
+    $altBody = str_replace('${eed}', $eed ? LSTR['pages']['dankon_pro_aligho']['yes'] : LSTR['pages']['dankon_pro_aligho']['no'], $altBody);
 
     $mail->setFrom('dejo@dejo.dk', 'DEJO');
     $mail->addAddress($email, "$firstname $lastname");
     $mail->addBCC('dejo@dejo.dk');
-    $mail->addBCC('dejo_alighoj@esperanto.dk');
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Subject = LSTR['pages']['dankon_pro_aligho']['subject'];

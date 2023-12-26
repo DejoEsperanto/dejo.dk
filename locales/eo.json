@@ -35,9 +35,9 @@
             "nia_rolo": {
                 "title": "Kion faras DEJO?",
                 "text": [
-                    "DEJO (Dana Esperantista Junulara Organizo) estas organizo kiu zor&shy;gas pri la danaj junuloj esperantistaj. Ni estas sekcio de nia gepatra organizo <a href=\"http://esperanto.dk/\">DEA (Dana Esperanto-Asocio)</a>, kiu zor&shy;gas pri Esperanto en Danio ĉiuaĝe. DEJO zorgas nur pri la disvastigado de Esperanto inter danoj sub la aĝo de 30 jaroj.",
+                    "DEJO (Dana Esperantista Junulara Organizo) estas organizo kiu zor&shy;gas pri la danaj junuloj esperantistaj. Ni estas sekcio de nia gepatra organizo <a href=\"http://esperanto.dk/\">DEA (Dana Esperanto-Asocio)</a>, kiu zor&shy;gas pri Esperanto en Danio ĉiuaĝe. DEJO zorgas nur pri la disvastigado de Esperanto inter danoj sub la aĝo de 35 jaroj.",
                     "Kaj DEJO kaj DEA estas sekcioj de du internaciaj organizoj, kiuj havas sekciojn en preskaŭ ĉiuj la landoj de la mondo, respektive <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperan&shy;tista Junulara Organizo)</a> kaj <a href=\"https://uea.org\">UEA (Univer&shy;sala Esperanto-Asocio)</a>.",
-                    "DEJO celas oferti kursojn de Esperanto al homoj sub 30 jaroj kaj esti renkontiĝejo por la dana esperantista junularo.",
+                    "DEJO celas oferti kursojn de Esperanto al homoj sub 35 jaroj kaj esti renkontiĝejo por la dana esperantista junularo.",
                     "Vi povas legi pli pri <a href=\"/pri/strukturo\">la strukturo de DEJO ĉi tie</a> kaj <a href=\"/pri/statuto\">la statuto de DEJO ĉi tie</a>."
                 ]
             },
@@ -67,7 +67,7 @@
                 "title": "Kial mi aliĝu?",
                 "text": [
                     "Membroj de DEJO ricevas multajn favoraĵojn, kelkaj el kiuj nomiĝas en <a href=\"/alighi\">la aliĝpaĝo</a>. Vi povas inlfui la agadon de la Esperanto-movado en Danio, kaj en la junulara organizo kaj en nia gepatra organizo, DEA. Vi povas trovi kunparol&shy;antojn, kiuj helpos vin plibonigi viajn lingvajn scipovojn, kaj kiuj povas fariĝi novaj geamikoj!",
-                    "Do se vi interesiĝas pri Esperanto kaj aĝas malpli ol 30 jaroj <a href=\"/alighi\">vi tuj aliĝu al DEJO</a>."
+                    "Do se vi interesiĝas pri Esperanto kaj aĝas malpli ol 35 jaroj <a href=\"/alighi\">vi tuj aliĝu al DEJO</a>."
                 ]
             },
             "kiel_uzi": {
@@ -113,6 +113,7 @@
                 "phone": "Telefonnumero",
                 "submit": "Aliĝi!",
                 "individual": "Mi ankaŭ volas aliĝi al UEA/TEJO kiel individua membro",
+                "eed": "Mi deziras ricevi la revuon “Esperanto en Danio” perpoŝte kaj pretas krompagi 95 kr.",
                 "privacy": "Je aliĝo mi akceptas $1la privatec&shy;politikon de DEJO$2."
             },
             "required": "Devigataj",
@@ -364,29 +365,24 @@
             ],
             "default_country": "Danio",
             "text": [
-                "Kostas 100 kr jare aliĝi al DEJO (Dana Esperantista Junulara Organizo) ĝis oni havas 26 jarojn, tiam kostas 200 kr. Je aliĝo al DEJO, vi ankaŭ aŭtomate aliĝos al nia landa asocio <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Membroj de DEA poŝte kvarfoje jare ricevas nian revuon “Esperanto en Danio”.",
+                "Kostas 100 kr jare aliĝi al DEJO (Dana Esperantista Junulara Organizo) ĝis oni havas 26 jarojn, tiam kostas 200 kr. Je aliĝo al DEJO, vi ankaŭ aŭtomate aliĝos al nia landa asocio <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>.",
+                "Membroj de DEJO kvarfoje jare ricevas la revuon de DEA “Esperanto en Danio” elektronike. Se oni deziras ricevi ĝin perpoŝte kostas aldone 95 kr/jaro.",
                 "Ĉiuj membroj de DEA sub 35 jaroj ankaŭ estas membroj de DEJO.",
                 "DEA estas oficiala landa organizo kadre de <a href=\"https://uea.org\">UEA (Universala Esperanto-Asocio)</a> kaj DEJO estas oficiala landa junulara orga&shy;nizo kadre de <a href=\"http://tejo.org\">TEJO (Tutmonda Esper&shy;ant&shy;ista Junulara Organizo)</a>.",
                 "Ĉiuj membroj de UEA sub 35 jaroj ankaŭ estas membroj de TEJO.",
                 "Je aliĝo al DEJO eblas ankaŭ aliĝi al UEA kaj TEJO samptempe. Je plia pago de 330 kr jare &mdash;t.e. 430/530 kr jare sume&mdash;vi ankaŭ estos <i>individua membro</i> de UEA kaj TEJO. Tiaj membroj rete povas legi la revuon <a href=\"https://uea.org/revuoj/esperanto\">“Esperanto”</a> de UEA kaj dumonate poŝte ricevas la revuon <a href=\"http://kontakto.tejo.org\">“Kontakto”</a> de TEJO.",
                 "Plie, individuaj membroj de UEA/TEJO ricevas rabaton je aliĝo al iliaj internaciaj kongresoj, <a href=\"https://www.uea.org/kongresoj\">UK (Universala Kongreso)</a> kaj <a href=\"http://tejo.org/agado/internacia-junulara-kongreso/\">IJK (Internacia Junul&shy;ara Kongreso)</a>.",
-                "Post aliĝo, ni petas al vi sendi la membrokotizon al nia bankkonto: reg.: 8411, konto.: 4188386."
+                "Post aliĝo, ni petas al vi sendi la membrokotizon al nia bankkonto: reg.: 9570, konto.: 12891075."
             ]
         },
         "dankon_pro_aligho": {
             "title": "Dankon pro via aliĝo!",
             "subject": "Dankon pro via aliĝo!",
-            "bank_number": "reg.: 8411, konto.: 4188386",
+            "bank_number": "reg.: 9570, konto.: 12891075",
             "yes": "jes",
             "no": "ne",
             "text": [
                 "Multan dankon pro via aliĝo! Ni nun sendis al vi konfirman retmesaĝon kun viaj informoj kaj nia bankokontonumero. Bonvolu kontroli vian spamujon se vi ne povas vidi la mesaĝon."
-            ]
-        },
-        "dankon_pro_kontakto": {
-            "title": "Dankon pro via enkontaktiĝo!",
-            "text": [
-                "Multan dankon pro via enkontaktiĝo! Ni kiel eble plej frue respondos."
             ]
         },
         "strukturo": {

@@ -35,9 +35,9 @@
             "nia_rolo": {
                 "title": "Hvad laver DEJO?",
                 "text": [
-                    "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esper&shy;anto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esper&shy;anto blandt danskere under 30 år.",
+                    "DEJO (Dana Esperantista Junulara Organizo) er den danske ungdomsforening for esperanto. Vi hører til under vores moderforening <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>, som er ansvarlig for esper&shy;anto i Danmark for alle aldre. DEJO beskæftiger sig kun med udspredelsen af esper&shy;anto blandt danskere under 35 år.",
                     "Både DEJO og DEA hører til under to inter&shy;nationale organisationer, som har foreninger i næsten alle verdens lande, henholdsvis <a href=\"http://tejo.org/da\">TEJO (Tutmonda Esperantista Junulara Organizo)</a> og <a href=\"https://uea.org\">UEA (Universala Esperanto-Asocio)</a>.",
-                    "DEJOs mål er at tilbyde kurser i esperanto til personer under 30, og at virke som samlested for den esperanto-talende ungdom i Danmark.",
+                    "DEJOs mål er at tilbyde kurser i esperanto til personer under 35, og at virke som samlested for den esperanto-talende ungdom i Danmark.",
                     "Du kan læse mere om <a href=\"/pri/strukturo\">DEJOs struktur her</a> og <a href=\"/pri/statuto\">DEJOs vedtægter her</a>."
                 ]
             },
@@ -67,7 +67,7 @@
                 "title": "Hvorfor bør jeg blive medlem?",
                 "text": [
                     "Som medlem af DEJO har du en masse fordele, nogle af hvilke er nævnt på <a href=\"/alighi\">tilmeldingssiden</a>. Du kan få indflydelse på esperanto-bevægelsens aktiviteter i Danmark, både i ungdoms&shy;afdel&shy;ingen og gennem vores moder&shy;organi&shy;sation, DEA. Du kan også finde samtalepartnere, der hjælper dig med at videreudvikle dine sproglige kompetencer, og som kan føre til nye ven&shy;skaber!",
-                    "Så hvis du interesserer dig for esperanto og er under 30 år <a href=\"/alighi\">bør du blive medlem af DEJO i dag</a>!"
+                    "Så hvis du interesserer dig for esperanto og er under 35 år <a href=\"/alighi\">bør du blive medlem af DEJO i dag</a>!"
                 ]
             },
             "kiel_uzi": {
@@ -113,6 +113,7 @@
                 "phone": "Telefonnummer",
                 "submit": "Bliv medlem!",
                 "individual": "Jeg vil også være individuelt medlem hos UEA/TEJO",
+                "eed": "Jeg ønsker at modtage tidsskriftet “Esperanto en Danio” med posten og betaler 95 kr ekstra.",
                 "privacy": "Ved tilmelding accepterer jeg $1DEJOs privatlivs&shy;politik$2."
             },
             "required": "Obligatoriske",
@@ -364,29 +365,24 @@
             ],
             "default_country": "Danmark",
             "text": [
-                "Det koster 100 kr om året at være medlem af DEJO (Dana Esperantista Junulara Orga&shy;nizo) indtil man fylder 26, hvorefter det koster 200 kr. Ved tilmelding til DEJO bliver du også automatisk medlem af vores moder&shy;orga&shy;ni&shy;sation <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>. Med&shy;lemmer af DEA modtager fire gange om året vores blad “Esperanto en Danio” med posten.",
+                "Det koster 100 kr om året at være medlem af DEJO (Dana Esperantista Junulara Orga&shy;nizo) indtil man fylder 26, hvorefter det koster 200 kr. Ved tilmelding til DEJO bliver du også automatisk medlem af vores moder&shy;orga&shy;ni&shy;sation <a href=\"http://esperanto.dk\">DEA (Dana Esperanto-Asocio)</a>.",
+                "DEJOs medlemmer modtager fire gange om året DEAs tidsskrift “Esperanto en Danio” elektronisk. Ønskes tidsskriftet tilsendt med posten koster dette 95 kr om året.",
                 "Alle medlemmer af DEA under 35 år er også medlemmer af DEJO.",
                 "DEA er en officiel lands&shy;dækkende organi&shy;sation under <a href=\"https://uea.org\">UEA (Universala Esperanto-Asocio)</a> og DEJO er en officiel lands&shy;dæk&shy;kende ungdoms&shy;organi&shy;sation under <a href=\"http://tejo.org\">TEJO (Tut&shy;monda Esperant&shy;ista Junul&shy;ara Orga&shy;nizo)</a>.",
                 "Alle medlemmer af UEA under 35 år er også medlemmer af TEJO.",
                 "Ved tilmelding til DEJO er det også muligt at blive medlem af UEA og TEJO samtidigt. Ved en ekstra betaling på 330 kr om året&mdash;dvs. 430/530 kr om året i alt&mdash;bliver du også <i>individuelt medlem</i> hos UEA og TEJO. Som individuelt medlem kan du læse magasinet <a href=\"https://uea.org/revuoj/esperanto\">“Esperanto”</a> af UEA online og modtager magasinet <a href=\"http://kontakto.tejo.org\">“Kontakto”</a> af TEJO med posten hver anden måned.",
                 "Endvidere modtager individuelle med&shy;lem&shy;mer af UEA/TEJO rabat ved tilmelding til deres interna&shy;tionale kongresser, <a href=\"https://www.uea.org/kongresoj\">UK (Univer&shy;sala Kon&shy;greso)</a> og <a href=\"http://tejo.org/agado/internacia-junulara-kongreso/\">IJK (Internacia Junulara Kongreso)</a>.",
-                "Efter tilmelding bedes du sende medlems&shy;gebyret til vores bankkonto: reg.: 8411, konto.: 4188386."
+                "Efter tilmelding bedes du sende medlems&shy;gebyret til vores bankkonto: reg.: 9570, konto.: 12891075."
             ]
         },
         "dankon_pro_aligho": {
             "title": "Tak for din tilmelding!",
             "subject": "Tak for din tilmelding!",
-            "bank_number": "reg.: 8411, konto.: 4188386",
+            "bank_number": "reg.: 9570, konto.: 12891075",
             "yes": "ja",
             "no": "nej",
             "text": [
-                "Mange tak for din tilmelding! Vi har nu sendt dig en bekræftelses-email med dine oplysninger og vores bankoplysninger. Tjek venligst din spam-mappe, hvis du ikke kan se emailen."
-            ]
-        },
-        "dankon_pro_kontakto": {
-            "title": "Tak for din henvendelse!",
-            "text": [
-                "Mange tak for din henvendelse! Vi svarer hurtigst muligt."
+                "Mange tak for din tilmelding! Vi har nu sendt dig en bekræftelses-email med dine oplysninger og vores bankoplysninger. Tjek venligst din spam-mappe, hvis du ikke kan finde e-mailen."
             ]
         },
         "strukturo": {

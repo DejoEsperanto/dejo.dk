@@ -38,6 +38,9 @@ ${phone}
 Tilmelding til UEA/TEJO
 ${uea-tejo}
 
+Esperanto en Danio med posten
+${eed}
+
 Dana Esperantista Junulara Organizo
 Anker Jensens Vej 15, 1.t.v. c/o Mia Nordentoft, 8230 Åbyhøj
 +45 20 98 92 63, dejo@dejo.dk
