@@ -111,11 +111,8 @@
                          ?>
                     </div>
                </div>
-               <div id="final">
-                    <div class="g-recaptcha" data-sitekey="6LczlSgUAAAAAHdaXdWPN2aFrWDAmaneGHEaGb2v"></div>
-                    <div>
-                         <input type="submit" tabindex="12" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
-                    </div>
+               <div>
+                    <input type="submit" tabindex="12" value="<?=LSTR['pages']['alighi']['form']['submit']?>">
                </div>
           </form>
 

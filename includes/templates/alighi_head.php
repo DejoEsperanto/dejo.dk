@@ -20,4 +20,3 @@
 ?>
 
 <link rel="stylesheet" href="/css/alighi.css?<?=VERSION?>">
-<script src='https://www.google.com/recaptcha/api.js'></script>

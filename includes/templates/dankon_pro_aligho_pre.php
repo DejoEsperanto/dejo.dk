@@ -28,15 +28,8 @@
         !isset($_POST['birthday'])            ||
         !isset($_POST['country'])             ||
         !isset($_POST['email'])               ||
-        !isset($_POST['g-recaptcha-response'])) {
         header("Location: /alighi", true, 307);
         die();
-    }
-
-    // Verify recaptcha
-    if (!isRecaptchaValid($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR'])) {
-        error_log($e);
-        showError(401, 'Nevalida reCAPTCHA');
     }
 
     require_once __DIR__ . '/../libraries/PHPMailer/PHPMailerAutoload.php';
