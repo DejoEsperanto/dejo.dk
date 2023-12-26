@@ -27,7 +27,7 @@
     if (!isset($_POST['firstname'])           ||
         !isset($_POST['birthday'])            ||
         !isset($_POST['country'])             ||
-        !isset($_POST['email'])
+        !isset($_POST['email']) {
         header("Location: /alighi", true, 307);
         die();
     }
