@@ -18,6 +18,3 @@
      * along with dejo.dk. If not, see <http://www.gnu.org/licenses/>.
      */
 ?>
-
-<link rel="stylesheet" href="/css/kontakti.css?<?=VERSION?>">
-<script src='https://www.google.com/recaptcha/api.js'></script>

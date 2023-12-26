@@ -45,7 +45,6 @@
         '/pri/strukturo'    => ['strukturo',           false],
         '/pri/statuto'      => ['statuto',             false],
         '/kontakti'         => ['kontakti',            true],
-        '/kontakti/dankon'  => ['dankon_pro_kontakto', false],
         '/privatvivo'       => ['privatvivo',          false],
         '/roskilde'         => ['roskilde',            false],
 
